@@ -6,7 +6,7 @@
         <div class="block">               
          <form action="" method="post" enctype="multipart/form-data">
             <table class="form">
-               
+                <!--Product Name-->
                 <tr>
                     <td>
                         <label>Product Name</label>
@@ -14,45 +14,73 @@
                     <td>
                         <select id="select" name="select">
                             <option>Select Product</option>
-                            <option value="1">Product One</option>
-                            <option value="2">Product Two</option>
-                            <option value="3">Product Three</option>
+                        <?php
+                            $query="select * from tbl_books";
+                            $selectData=$db->select($query);
+                            if($selectData)
+                            {
+                                while($result=$selectData->fetch_assoc())
+                                {
+
+                        ?>
+                            <option value="<?php echo $result['bookId']; ?>"><?php echo $result['bookName']; ?></option>
+                        <?php
+                                }
+                            }
+                        ?>
                         </select>
                     </td>
                 </tr>
-				<tr>
+                
+                <!--Product Category-->
+                <tr>
                     <td>
                         <label>Category</label>
                     </td>
                     <td>
                         <select id="select" name="select">
                             <option>Select Category</option>
-                            <option value="1">Category One</option>
-                            <option value="2">Category Two</option>
-                            <option value="3">Category Three</option>
+                        <?php
+                            $query="select * from tbl_category";
+                            $selectData=$db->select($query);
+                            if($selectData)
+                            {
+                                while($result=$selectData->fetch_assoc())
+                                {
+
+                        ?>
+                            <option value="<?php echo $result['catId']; ?>"><?php echo $result['catName']; ?></option>
+                        <?php
+                                }
+                            }
+                        ?>
                         </select>
                     </td>
                 </tr>
-				<tr>
+                
+                <!--Product Branch-->
+                <tr>
                     <td>
                         <label>Branch</label>
                     </td>
                     <td>
                         <select id="select" name="select">
                             <option>Select Branch</option>
-                            <option value="1">Branch One</option>
-                            <option value="2">Branch Two</option>
-                            <option value="3">Branch Three</option>
+                        <?php
+                            $query="select * from tbl_branch";
+                            $selectData=$db->select($query);
+                            if($selectData)
+                            {
+                                while($result=$selectData->fetch_assoc())
+                                {
+
+                        ?>
+                            <option value="<?php echo $result['branchId']; ?>"><?php echo $result['branchName']; ?></option>
+                        <?php
+                                }
+                            }
+                        ?>
                         </select>
-                    </td>
-                </tr>
-				
-				 <tr>
-                    <td style="vertical-align: top; padding-top: 9px;">
-                        <label>Description</label>
-                    </td>
-                    <td>
-                        <textarea class="tinymce"></textarea>
                     </td>
                 </tr>
 				<tr>

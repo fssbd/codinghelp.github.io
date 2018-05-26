@@ -1,13 +1,16 @@
 ﻿<?php include 'inc/header.php';?>
 <?php include 'inc/sidebar.php';?>
+<?php
+    
+?>
 <div class="grid_10">
     <div class="box round first grid">
-        <h2>Post List</h2>
+        <h2>Product List</h2>
         <div class="block">  
             <table class="data display datatable" id="example">
 			<thead>
 				<tr>
-					<th>Post Title</th>
+					<th>Product Title</th>
 					<th>Description</th>
 					<th>Category</th>
 					<th>Image</th>
