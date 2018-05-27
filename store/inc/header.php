@@ -46,7 +46,7 @@
 							while($result=$post->fetch_assoc())
 							{
 					?>
-                  				<li><a href="booklist.php?catid=<?php echo $result['catId']; ?>"> <?php echo $result['catName']; ?> </a></li>
+                  				<li><a href="booklist.php?catId=<?php echo $result['catId']; ?>"> <?php echo $result['catName']; ?> </a></li>
                   	<?php 
 							}
 						}

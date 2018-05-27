@@ -1,10 +1,26 @@
-﻿<?php include 'inc/header.php';?>
+<?php include 'inc/header.php';?>
 <?php include 'inc/sidebar.php';?>
 <div class="grid_10">
     <div class="box round first grid">
-        <h2>Add New Product</h2>
+        <h2>Update Product</h2>
         <div class="block">       
-        
+
+
+
+
+<?php
+	if(!isset($_GET['editid']) || $_GET['editid']==NULL)
+	{
+		header("Location:productlist.php");
+	}
+	else
+	{
+		$editid=$_GET['editid'];
+	}
+
+
+?>
+
 <?php
 
 	
@@ -46,21 +62,20 @@
 								if(in_array($file_ext, $permited) === true)
 								{
 									move_uploaded_file($file_temp, $uploaded_image);
-									$query="insert into tbl_product (bookId,bookName,authorName,catId,catName,branchId,branchName,price,image) 
-									values(
-									'$bookId',
-									(select bookName from tbl_books where bookId='$bookId'),
-									(select authorName from tbl_books where bookId='$bookId'),
-									'$catId',
-									(select catName from tbl_category where catId='$catId'),
-									'$branchId',
-									(select branchName from tbl_branch where branchId='$branchId'),
-									'$price',
-									'$uploaded_image')";
-									$productInsert=$db->insert($query);
-									if($productInsert)
+									$query="update tbl_product 
+									set bookId='$bookId',
+									bookName=(select bookName from tbl_books where bookId='$bookId'),
+									authorName=(select authorName from tbl_books where bookId='$bookId'),
+									catId='$catId',
+									catName=(select catName from tbl_category where catId='$catId'),
+									branchId='$branchId',
+									branchName=(select branchName from tbl_branch where branchId='$branchId'),
+									price='$price',
+									image='$uploaded_image' where productId='$editid' ";
+									$productUpdate=$db->update($query);
+									if($productUpdate)
 									{
-										echo "<span style='color:green;font-size:18px;'>Product Inserted Successfully.</span>"; 
+										echo "<span style='color:green;font-size:18px;'>Product Update Successfully.</span>"; 
 									}
 									else
 									{
@@ -76,10 +91,23 @@
 							{
 								echo "<span style='color:green;font-size:18px;'>Image Size should be less then 1MB!</span>";
 							}
+						
 						}
-						else
-						{
-							echo "<span style='color:red;font-size:18px;'>Image must not be empty</span>";
+						else{
+							$query="update tbl_product 
+							set bookId='$bookId',
+							bookName=(select bookName from tbl_books where bookId='$bookId'),
+							authorName=(select authorName from tbl_books where bookId='$bookId'),
+							catId='$catId',
+							catName=(select catName from tbl_category where catId='$catId'),
+							branchId='$branchId',
+							branchName=(select branchName from tbl_branch where branchId='$branchId'),
+							price='$price' where productId='$editid' ";
+							$productUpdate=$db->update($query);
+							if($productUpdate)
+							{
+								echo "<span style='color:green;font-size:18px;'>Product Update Successfully.</span>"; 
+							}
 						}
 					}
 					else
@@ -104,7 +132,13 @@
 	}
 ?> 
 
-        
+        <?php
+			$query="select * from tbl_product where productId='$editid' order by productId desc";
+			$getProductData=$db->select($query);
+			while($productResult=$getProductData->fetch_assoc())
+			{
+
+		?> 
          <form action="" method="post" enctype="multipart/form-data">
             <table class="form">
                 <!--Product Name-->
@@ -124,7 +158,11 @@
                                 {
 
                         ?>
-                            <option value="<?php echo $result['bookId']; ?>"><?php echo $result['bookName']; ?></option>
+                            <option 
+                            <?php
+								if($productResult['bookId']==$result['bookId']) { ?>
+									selected="selected"
+							<?php } ?> value="<?php echo $result['bookId']; ?>"><?php echo $result['bookName']; ?></option>
                         <?php
                                 }
                             }
@@ -150,7 +188,11 @@
                                 {
 
                         ?>
-                            <option value="<?php echo $result['catId']; ?>"><?php echo $result['catName']; ?></option>
+                            <option 
+                            <?php
+								if($productResult['catId']==$result['catId']) { ?>
+									selected="selected"
+							<?php } ?> value="<?php echo $result['catId']; ?>"><?php echo $result['catName']; ?></option>
                         <?php
                                 }
                             }
@@ -176,7 +218,11 @@
                                 {
 
                         ?>
-                            <option value="<?php echo $result['branchId']; ?>"><?php echo $result['branchName']; ?></option>
+                            <option 
+                            <?php
+								if($productResult['branchId']==$result['branchId']) { ?>
+									selected="selected"
+							<?php } ?> value="<?php echo $result['branchId']; ?>"><?php echo $result['branchName']; ?></option>
                         <?php
                                 }
                             }
@@ -189,7 +235,7 @@
                         <label>Price</label>
                     </td>
                     <td>
-                        <input type="text" name="price" placeholder="Enter Price..." class="medium" />
+                        <input type="text" value="<?php echo $productResult['price']?>" name="price" class="medium" />
                     </td>
                 </tr>
             
@@ -198,6 +244,8 @@
                         <label>Upload Image</label>
                     </td>
                     <td>
+                       <img src="<?php echo $productResult['image']?>" height="70px" width="50px" alt="">
+                       <br/>
                         <input name="image" type="file" />
                     </td>
                 </tr>
@@ -205,11 +253,14 @@
 				<tr>
                     <td></td>
                     <td>
-                        <input type="submit" name="submit" Value="Save" />
+                        <input type="submit" name="submit" Value="Update" />
                     </td>
                 </tr>
             </table>
             </form>
+        <?php 
+			}
+		?>
         </div>
     </div>
 </div>

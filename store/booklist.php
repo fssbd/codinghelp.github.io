@@ -3,61 +3,43 @@
     <div class="container-fluid text-center">    
       <h3>CATEGORY WISE BOOK LIST</h3>
       <br>
+      
+
+	<?php
+		if(!isset($_GET['catId']) || $_GET['catId']==NULL)
+		{
+			header("Location:offerlist.php");
+		}
+		else
+		{
+			$catId=$_GET['catId'];
+		}
+
+
+	?>      
+      
+      
       <div class="row">
+       
+       <?php
+			$query="select * from tbl_product where catId='$catId'";
+			$selectData=$db->select($query);
+			if($selectData)
+			{
+				while($result=$selectData->fetch_assoc())
+				{
+		?>
+       
         <div class="col-sm-2 books">
-          <a href="#"  data-toggle="modal" data-target="#product_view"><img src="images/books/biye.jpg" class="img-responsive image" style="width:100%" alt="Image"></a>
+          <a href="?productId=<?php echo $result['productId']?>"  data-toggle="modal" data-target="#product_view"><img src="admin/<?php echo $result['image']?>" class="img-responsive image" style="width:100%" alt="Image"></a>
           <div class="middle">
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
           </div>
-          <p>Biye</p>
-          <p>TK. 200</p>
-          <p>Author Name</p>
-        </div>
-        <div class="col-sm-2 books"> 
-          <a href="#"  data-toggle="modal" data-target="#product_view"><img src="images/books/deyal.jpg" class="img-responsive image" style="width:100%" alt="Image"></a>
-          <div class="middle">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
-          </div>
-          <p>Deyal</p>
-          <p>TK. 200</p>
-          <p>Author Name</p>
-        </div>
-        <div class="col-sm-2 books"> 
-          <a href="#"  data-toggle="modal" data-target="#product_view"><img src="images/books/mosad.jpg" class="img-responsive image" style="width:100%" alt="Image"></a>
-          <div class="middle">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
-          </div>
-          <p>Mosad</p>
-          <p>TK. 200</p>
-          <p>Author Name</p>
-        </div>
-        <div class="col-sm-2 books"> 
-          <a href="#"  data-toggle="modal" data-target="#product_view"><img src="images/books/onko-vaiaa.jpg" class="img-responsive image" style="width:100%" alt="Image"></a>
-          <div class="middle">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
-          </div>
-          <p>Onko Vaiaa</p>
-          <p>TK. 200</p>
-          <p>Author Name</p>
-        </div>
-        <div class="col-sm-2 books">
-          <a href="#"  data-toggle="modal" data-target="#product_view"><img src="images/books/biye.jpg" class="img-responsive image" style="width:100%" alt="Image"></a>
-          <div class="middle">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
-          </div>
-          <p>Biye</p>
-          <p>TK. 200</p>
-          <p>Author Name</p>
-        </div>
-        <div class="col-sm-2 books"> 
-          <a href="#"  data-toggle="modal" data-target="#product_view"><img src="images/books/onko-vaiaa.jpg" class="img-responsive image" style="width:100%" alt="Image"></a>
-          <div class="middle">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
-          </div>
-          <p>Onko Vaiaa</p>
-          <p>TK. 200</p>
-          <p>Author Name</p>
+          <p>Name: <?php echo $result['bookName']?></p>
+          <p>Author Name: <?php echo $result['authorName']?></p>
+          <p>Price: <?php echo $result['price']?></p>
         </div> 
+        <?php }}?>
       </div>
       <hr>
     </div>
@@ -69,6 +51,20 @@
 	<div class="modal fade product_view" id="product_view">
 		<div class="modal-dialog">
 			<div class="modal-content">
+			<?php
+				
+				if(isset($_GET['productId']) || $_GET['productId']!=NULL)
+				{
+					$productId=$_GET['productId'];
+				}
+				
+				$query1="select * from tbl_product where productId='$productId'";
+				$selectData1=$db->select($query1);
+				if($selectData1)
+				{
+					while($result1=$selectData1->fetch_assoc())
+					{
+			?>
 				<div class="modal-header">
 					<a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
 					<h3 class="modal-title">Product Details</h3>
@@ -76,17 +72,23 @@
 				<div class="modal-body">
 					<div class="row">
 						<div class="col-md-6 product_img">
-							<img src="images/books/deyal.jpg" class="img-responsive">
+							<img src="admin/<?php echo $result1['image']?>" class="img-responsive">
 						</div>
 						<div class="col-md-6 product_content">
-							<h4>Product Name: <span>Deyal</span></h4>
-							<h4>Author Name: <span>ABC</span></h4>
+						
+							<h4>Product Name: <span><?php echo $result1['productName']?></span></h4>
+							<h4>Author Name: <span><?php echo $result1['authorName']?></span></h4>
 							<h4>Status: <span>Available</span></h4>
-							<h4>Price: <span>200</span></h4>
-							<h4>Branch: <span>GEC</span></h4>
+							<h4>Price: <span><?php echo $result1['price']?></span></h4>
+							<h4>Branch: <span><?php echo $result1['branchName']?></span></h4>
+						
 						</div>
 					</div>
 				</div>
+				
+			<?php }
+				}
+			?>
 			</div>
 		</div>
 	</div>

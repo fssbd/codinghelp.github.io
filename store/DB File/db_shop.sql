@@ -37,13 +37,19 @@ CREATE TABLE IF NOT EXISTS `tbl_books` (
   `bookName` varchar(200) NOT NULL,
   `authorName` varchar(500) NOT NULL,
   PRIMARY KEY (`bookId`)
-) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
 
--- Dumping data for table db_shop.tbl_books: 1 rows
+-- Dumping data for table db_shop.tbl_books: 7 rows
 DELETE FROM `tbl_books`;
 /*!40000 ALTER TABLE `tbl_books` DISABLE KEYS */;
 INSERT INTO `tbl_books` (`bookId`, `bookName`, `authorName`) VALUES
-	(13, 'Computer Fundamentals', 'DR. M. Lutfar Rahman');
+	(13, 'Computer Fundamentals', 'DR. M. Lutfar Rahman'),
+	(14, 'Alo Adharer Jatri', 'Anisul Haque'),
+	(15, 'Biye', 'Rehnuma'),
+	(16, 'Deyal', 'Humaion Ahmed'),
+	(17, 'Andhokar theke alo', 'Musfiqur Rahman'),
+	(18, 'Putul Rohosso', 'Rokib Hasan'),
+	(19, 'Subodh', 'Ali Abdullah');
 /*!40000 ALTER TABLE `tbl_books` ENABLE KEYS */;
 
 
@@ -140,6 +146,30 @@ INSERT INTO `tbl_offers` (`offerId`, `offerName`, `offerDescription`) VALUES
 	(11, 'test', 'test'),
 	(12, 'test', 'test');
 /*!40000 ALTER TABLE `tbl_offers` ENABLE KEYS */;
+
+
+-- Dumping structure for table db_shop.tbl_product
+CREATE TABLE IF NOT EXISTS `tbl_product` (
+  `productId` int(11) NOT NULL AUTO_INCREMENT,
+  `bookId` int(11) DEFAULT NULL,
+  `bookName` varchar(250) DEFAULT NULL,
+  `authorName` varchar(250) DEFAULT NULL,
+  `catId` int(11) DEFAULT NULL,
+  `catName` varchar(250) DEFAULT NULL,
+  `branchId` int(11) DEFAULT NULL,
+  `branchName` varchar(250) DEFAULT NULL,
+  `price` double DEFAULT NULL,
+  `image` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`productId`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+
+-- Dumping data for table db_shop.tbl_product: ~2 rows (approximately)
+DELETE FROM `tbl_product`;
+/*!40000 ALTER TABLE `tbl_product` DISABLE KEYS */;
+INSERT INTO `tbl_product` (`productId`, `bookId`, `bookName`, `authorName`, `catId`, `catName`, `branchId`, `branchName`, `price`, `image`) VALUES
+	(7, 18, 'Putul Rohosso', 'Rokib Hasan', 1, 'Science fiction', 1, 'GEC', 250, 'upload/92a483e9b4.jpg'),
+	(8, 14, 'Alo Adharer Jatri', 'Anisul Haque', 2, 'Drama', 1, 'GEC', 300, 'upload/214fe77c64.jpg');
+/*!40000 ALTER TABLE `tbl_product` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

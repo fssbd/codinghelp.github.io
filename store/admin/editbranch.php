@@ -16,7 +16,7 @@
 ?>
         <div class="grid_10">
             <div class="box round first grid">
-                <h2>Add New Branch</h2>
+                <h2>Update Branch</h2>
                <div class="block copyblock"> 
 			   <?php
 
