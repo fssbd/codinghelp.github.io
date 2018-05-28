@@ -39,7 +39,9 @@
           <p>Author Name: <?php echo $result['authorName']?></p>
           <p>Price: <?php echo $result['price']?></p>
         </div> 
-        <?php }}?>
+        <?php
+                    
+        }}?>
       </div>
       <hr>
     </div>
@@ -52,7 +54,8 @@
 		<div class="modal-dialog">
 			<div class="modal-content">
 			<?php
-				
+				echo $_GET['productId'];
+                exit;
 				if(isset($_GET['productId']) || $_GET['productId']!=NULL)
 				{
 					$productId=$_GET['productId'];
