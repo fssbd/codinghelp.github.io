@@ -59,10 +59,9 @@
         <div class="grid_12 header-repeat">
             <div id="branding">
                 <div class="floatleft logo">
-                    <img src="" alt="Logo" />
 				</div>
 				<div class="floatleft middle">
-					<h1>Book Store</h1>
+					<h1>PRIHUTA BOOK STORE</h1>
 					<p></p>
 				</div>
                 <div class="floatright">

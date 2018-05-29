@@ -46,7 +46,7 @@
 					}
 					else
 					{
-						echo "<span style='color:red;font-size:18px;'>Author Namen Field must not be empty</span>";
+						echo "<span style='color:red;font-size:18px;'>Author Name Field must not be empty</span>";
 					}
 				}
 				else

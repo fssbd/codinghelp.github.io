@@ -21,11 +21,11 @@
 				$bookinsert=$db->insert($query);
 				if($bookinsert)
 				{
-					echo "<span style='color:green;font-size:18px;'>book Inserted Successfully.</span>";
+					echo "<span style='color:green;font-size:18px;'>Book Inserted Successfully.</span>";
 				}
 				else
 				{
-					echo "<span style='color:red;font-size:18px;'>book Not Inserted !</span>";
+					echo "<span style='color:red;font-size:18px;'>Book Not Inserted !</span>";
 				}
 			}
 			else
@@ -35,7 +35,7 @@
 		}
 		else
 	    {
-			echo "<span style='color:red;font-size:18px;'>book Name Field must not be empty</span>";
+			echo "<span style='color:red;font-size:18px;'>Book Name Field must not be empty</span>";
 	    }
 	}
 ?>              

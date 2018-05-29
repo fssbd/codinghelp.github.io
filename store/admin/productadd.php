@@ -57,6 +57,7 @@
 									(select branchName from tbl_branch where branchId='$branchId'),
 									'$price',
 									'$uploaded_image')";
+									
 									$productInsert=$db->insert($query);
 									if($productInsert)
 									{

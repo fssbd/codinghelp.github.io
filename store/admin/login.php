@@ -66,7 +66,7 @@
 			</div>
 		</form><!-- form -->
 		<div class="button">
-			<a href="#">book store</a>
+			<a href="#">PRIHUTA BOOK STORE</a>
 		</div><!-- button -->
 	</section><!-- content -->
 </div><!-- container -->

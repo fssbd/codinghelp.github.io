@@ -53,24 +53,14 @@
 					?>
                 </ul>
             </li>
-          </ul>
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Branch <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-					<li><a href="branch.php">Branch-1</a></li>
-					<li><a href="branch.php">Branch-2</a></li>
-					<li><a href="branch.php">Branch-3</a></li>
-					<li><a href="branch.php">Branch-4</a></li>
-                </ul>
-            </li>
+            <li><a href="branches.php">Branch</a></li>
           </ul>
           <div class="col-sm-3 col-md-3">
             <form class="navbar-form" role="search">
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Search" name="name" required="required">
                     <div class="input-group-btn">
-                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                        <a href="productListBySearching.php?id="><button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button></a>
                     </div>
                 </div>
             </form>
