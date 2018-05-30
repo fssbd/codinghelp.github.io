@@ -38,7 +38,11 @@
           <p>Author Name: <?php echo $result['authorName']?></p>
           <p>Price: <?php echo $result['price']?></p>
         </div> 
-        <?php }}?>
+        <?php }}
+		  else
+		  {
+			  echo "<span style='color:red;font-size:18px;'>This BOOK is not available in any branch...!</span>";
+		  }?>
       </div>
       <hr>
     </div>    

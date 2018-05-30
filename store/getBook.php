@@ -31,7 +31,6 @@
 
 					<h4>Product Name: <span><?php echo $result1['bookName']?></span></h4>
 					<h4>Author Name: <span><?php echo $result1['authorName']?></span></h4>
-					<h4>Status: <span>Available</span></h4>
 					<h4>Price: <span><?php echo $result1['price']?></span></h4>
 					<h4>Branch: <span><?php echo $result1['branchName']?></span></h4>
 

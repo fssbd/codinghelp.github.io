@@ -38,7 +38,11 @@
           <p>Author Name: <?php echo $result['authorName']?></p>
           <p>Price: <?php echo $result['price']?></p>
         </div> 
-        <?php }}?>
+        <?php }}
+		  else
+		  {
+			  echo "<span style='color:red;font-size:18px;'>Nothing to Display...!</span>";
+		  }?>
       </div>
       <hr>
     </div>    
