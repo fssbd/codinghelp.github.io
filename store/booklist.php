@@ -8,7 +8,7 @@
 	<?php
 		if(!isset($_GET['catId']) || $_GET['catId']==NULL)
 		{
-			header("Location:offerlist.php");
+			header("Location:index.php");
 		}
 		else
 		{
@@ -30,7 +30,7 @@
 				{
 		?>       
         <div class="col-sm-2 books">
-          <a href="#" data-toggle="modal" data-target="#product_view"><img src="admin/<?php echo $result['image']?>" class="img-responsive image" style="width:100%" alt="Image"></a>
+          <img src="admin/<?php echo $result['image']?>" class="img-responsive image" style="width:100%" alt="Image">
           <div class="middle">
             <button type="button" value="<?php echo $result['productId']?>" onclick="getBook(this.value)"  class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
           </div>
