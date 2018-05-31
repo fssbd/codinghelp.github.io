@@ -22,7 +22,7 @@
       <div class="row">
        
        <?php
-			$query="select * from tbl_product where catId='$catId'";
+			$query="select distinct image,bookName,authorName,price from tbl_product where catId='$catId'";
 			$selectData=$db->select($query);
 			if($selectData)
 			{
@@ -32,7 +32,7 @@
         <div class="col-sm-2 books">
           <img src="admin/<?php echo $result['image']?>" class="img-responsive image" style="width:100%" alt="Image">
           <div class="middle">
-            <button type="button" value="<?php echo $result['productId']?>" onclick="getBook(this.value)"  class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
+            <button type="button" value="<?php echo $result['bookName']?>" onclick="getBook(this.value)"  class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
           </div>
           <p>Name: <?php echo $result['bookName']?></p>
           <p>Author Name: <?php echo $result['authorName']?></p>
@@ -65,7 +65,7 @@
 		$.ajax({
 			type: "POST",
 			url: "getBook.php",
-			data: "productId="+val,
+			data: "bookName="+val,
 			success: function(data){
 				$("#allvalue").html(data);
 			}

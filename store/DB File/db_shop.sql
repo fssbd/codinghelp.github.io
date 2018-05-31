@@ -36,20 +36,18 @@ CREATE TABLE IF NOT EXISTS `tbl_books` (
   `bookId` int(11) NOT NULL AUTO_INCREMENT,
   `bookName` varchar(200) NOT NULL,
   `authorName` varchar(500) NOT NULL,
+  `catId` varchar(500) NOT NULL,
+  `catName` varchar(500) NOT NULL,
+  `price` double DEFAULT NULL,
+  `image` varchar(500) DEFAULT NULL,
   PRIMARY KEY (`bookId`)
-) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
 
--- Dumping data for table db_shop.tbl_books: 7 rows
+-- Dumping data for table db_shop.tbl_books: 1 rows
 DELETE FROM `tbl_books`;
 /*!40000 ALTER TABLE `tbl_books` DISABLE KEYS */;
-INSERT INTO `tbl_books` (`bookId`, `bookName`, `authorName`) VALUES
-	(13, 'Computer Fundamentals', 'DR. M. Lutfar Rahman'),
-	(14, 'Alo Adharer Jatri', 'Anisul Haque'),
-	(15, 'Biye', 'Rehnuma'),
-	(16, 'Deyal', 'Humaion Ahmed'),
-	(17, 'Andhokar theke alo', 'Musfiqur Rahman'),
-	(18, 'Putul Rohosso', 'Rokib Hasan'),
-	(19, 'Subodh', 'Ali Abdullah');
+INSERT INTO `tbl_books` (`bookId`, `bookName`, `authorName`, `catId`, `catName`, `price`, `image`) VALUES
+	(25, 'Deyal', 'Humaion Ahmed', '4', 'Romance', 300, 'upload/87d6115532.jpg');
 /*!40000 ALTER TABLE `tbl_books` ENABLE KEYS */;
 
 
@@ -59,14 +57,14 @@ CREATE TABLE IF NOT EXISTS `tbl_branch` (
   `branchName` varchar(150) NOT NULL,
   `branchAddress` varchar(300) NOT NULL DEFAULT '0',
   PRIMARY KEY (`branchId`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
--- Dumping data for table db_shop.tbl_branch: ~1 rows (approximately)
+-- Dumping data for table db_shop.tbl_branch: ~2 rows (approximately)
 DELETE FROM `tbl_branch`;
 /*!40000 ALTER TABLE `tbl_branch` DISABLE KEYS */;
 INSERT INTO `tbl_branch` (`branchId`, `branchName`, `branchAddress`) VALUES
 	(1, 'GEC', 'GEC Circle'),
-	(4, 'test', 'test');
+	(3, 'Andorkilla', 'Andorkilla, Chittagong');
 /*!40000 ALTER TABLE `tbl_branch` ENABLE KEYS */;
 
 
@@ -75,9 +73,9 @@ CREATE TABLE IF NOT EXISTS `tbl_category` (
   `catId` int(11) NOT NULL AUTO_INCREMENT,
   `catName` varchar(255) NOT NULL,
   PRIMARY KEY (`catId`)
-) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
 
--- Dumping data for table db_shop.tbl_category: 13 rows
+-- Dumping data for table db_shop.tbl_category: 12 rows
 DELETE FROM `tbl_category`;
 /*!40000 ALTER TABLE `tbl_category` DISABLE KEYS */;
 INSERT INTO `tbl_category` (`catId`, `catName`) VALUES
@@ -92,8 +90,7 @@ INSERT INTO `tbl_category` (`catId`, `catName`) VALUES
 	(9, 'Dictionaries'),
 	(10, 'Journals'),
 	(11, 'Biographies'),
-	(17, 'Fantasy'),
-	(19, 'test');
+	(17, 'Fantasy');
 /*!40000 ALTER TABLE `tbl_category` ENABLE KEYS */;
 
 
@@ -103,9 +100,9 @@ CREATE TABLE IF NOT EXISTS `tbl_events` (
   `eventName` varchar(200) NOT NULL,
   `eventDescription` varchar(500) NOT NULL,
   PRIMARY KEY (`eventId`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
 
--- Dumping data for table db_shop.tbl_events: ~11 rows (approximately)
+-- Dumping data for table db_shop.tbl_events: ~7 rows (approximately)
 DELETE FROM `tbl_events`;
 /*!40000 ALTER TABLE `tbl_events` DISABLE KEYS */;
 INSERT INTO `tbl_events` (`eventId`, `eventName`, `eventDescription`) VALUES
@@ -115,11 +112,7 @@ INSERT INTO `tbl_events` (`eventId`, `eventName`, `eventDescription`) VALUES
 	(4, 'event Name', 'Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description'),
 	(5, 'event Name', 'Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description'),
 	(6, 'event Name', 'Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description'),
-	(7, 'event Name', 'Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description'),
-	(8, 'event Name', 'Event Description Event Description Event Description Event Description Event Description Event Description Event Description Event Description'),
-	(9, 'Test', ''),
-	(10, 'Test', 'Test'),
-	(11, 'Test', 'Test');
+	(9, '2', '2');
 /*!40000 ALTER TABLE `tbl_events` ENABLE KEYS */;
 
 
@@ -131,7 +124,7 @@ CREATE TABLE IF NOT EXISTS `tbl_offers` (
   PRIMARY KEY (`offerId`)
 ) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 
--- Dumping data for table db_shop.tbl_offers: 10 rows
+-- Dumping data for table db_shop.tbl_offers: 8 rows
 DELETE FROM `tbl_offers`;
 /*!40000 ALTER TABLE `tbl_offers` DISABLE KEYS */;
 INSERT INTO `tbl_offers` (`offerId`, `offerName`, `offerDescription`) VALUES
@@ -142,9 +135,7 @@ INSERT INTO `tbl_offers` (`offerId`, `offerName`, `offerDescription`) VALUES
 	(5, 'Offer Name', 'Offer Description Offer Description Offer Description Offer Description Offer Description Offer Description Offer Description'),
 	(6, 'Offer Name', 'Offer Description Offer Description Offer Description Offer Description Offer Description Offer Description Offer Description'),
 	(7, 'Offer Name', 'Offer Description Offer Description Offer Description Offer Description Offer Description Offer Description Offer Description'),
-	(8, 'Offer Name', 'Offer Description Offer Description Offer Description Offer Description Offer Description Offer Description Offer Description'),
-	(11, 'test', 'test'),
-	(12, 'test', 'test');
+	(8, 'Offer Name', 'Offer Description Offer Description Offer Description Offer Description Offer Description Offer Description Offer Description');
 /*!40000 ALTER TABLE `tbl_offers` ENABLE KEYS */;
 
 
@@ -161,14 +152,14 @@ CREATE TABLE IF NOT EXISTS `tbl_product` (
   `price` double DEFAULT NULL,
   `image` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`productId`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 
 -- Dumping data for table db_shop.tbl_product: ~2 rows (approximately)
 DELETE FROM `tbl_product`;
 /*!40000 ALTER TABLE `tbl_product` DISABLE KEYS */;
 INSERT INTO `tbl_product` (`productId`, `bookId`, `bookName`, `authorName`, `catId`, `catName`, `branchId`, `branchName`, `price`, `image`) VALUES
-	(7, 18, 'Putul Rohosso', 'Rokib Hasan', 1, 'Science fiction', 1, 'GEC', 250, 'upload/92a483e9b4.jpg'),
-	(8, 14, 'Alo Adharer Jatri', 'Anisul Haque', 2, 'Drama', 1, 'GEC', 300, 'upload/214fe77c64.jpg');
+	(11, 25, 'Deyal', 'Humaion Ahmed', 4, 'Romance', 1, 'GEC', 300, 'upload/87d6115532.jpg'),
+	(12, 25, 'Deyal', 'Humaion Ahmed', 4, 'Romance', 3, 'Andorkilla', 300, 'upload/87d6115532.jpg');
 /*!40000 ALTER TABLE `tbl_product` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
