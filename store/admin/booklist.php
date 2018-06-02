@@ -36,7 +36,7 @@
 							<td> <?php echo $result['catName']; ?> </td>
 							<td> <?php echo $result['price']; ?> </td>
 							<td> <img src="<?php echo $result['image']; ?>" alt="image" height="60px" width="40px"> </td>
-							<td><a href="editbook.php?editid=<?php echo $result['bookId'];?>">Edit</a> || <a onclick="return confirm('Are you sure to Delete! ');" href="deleteproduct.php?deleteid=<?php echo $result['bookId'];?>">Delete</a></td>
+							<td><a href="editbook.php?editid=<?php echo $result['bookId'];?>">Edit</a> || <a onclick="return confirm('Are you sure to Delete! ');" href="deletebook.php?deleteid=<?php echo $result['bookId'];?>">Delete</a></td>
 						</tr>
 				<?php 
 						}
