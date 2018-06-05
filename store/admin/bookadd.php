@@ -122,7 +122,7 @@
                     </td>
                     <td>
                         <select id="select" name="catId">
-                            <option>Select Category</option>
+                            <option value="">Select Category</option>
                         <?php
                             $query="select * from tbl_category";
                             $selectData=$db->select($query);

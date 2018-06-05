@@ -66,7 +66,7 @@
                     </td>
                     <td>
                         <select id="select" name="bookId">
-                            <option>Select Product</option>
+                            <option value="">Select Product</option>
                         <?php
                             $query="select * from tbl_books";
                             $selectData=$db->select($query);
@@ -92,7 +92,7 @@
                     </td>
                     <td>
                         <select id="select" name="branchId">
-                            <option>Select Branch</option>
+                            <option value="">Select Branch</option>
                         <?php
                             $query="select * from tbl_branch";
                             $selectData=$db->select($query);
