@@ -243,6 +243,14 @@
 .tt-suggestion p {
   margin: 0;
 }
+.boxBorder {
+    border: 1px solid white;
+    padding: 2%;
+}
+.boxBorder:hover {
+    border: 1px solid green;
+    padding: 2%;
+}
 /*Services*/
 
 

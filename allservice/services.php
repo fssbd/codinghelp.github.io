@@ -29,8 +29,8 @@
 						<table class="table table-user-information">
 						  <tbody>
 							<tr>
-							  <td>Email:</td>
-							  <td><a href="mailto:info@support.com">vjindal@ca.mufg.ca</a></td>
+							  <td>Specialist:</td>
+							  <td>Programmer</td>
 							</tr>
 							<tr>
 							  <td>Ext:</td>
@@ -40,6 +40,10 @@
 							<tr>
 							  <td>Mobile No.</td>
 							  <td>123-456-8990</td>
+							</tr>
+							<tr>
+							  <td></td>
+							  <td><button class="btn btn-primary">Hire</button></td>
 							</tr>
 						  </tbody>
 						</table>
@@ -68,10 +72,10 @@
 				  <div class="card card-block">
 					<table class="table table-user-information">
 					  <tbody>
-						<tr>
-						  <td>Email:</td>
-						  <td><a href="mailto:info@support.com">vjindal@ca.mufg.ca</a></td>
-						</tr>
+							<tr>
+							  <td>Specialist:</td>
+							  <td>Network Engineer</td>
+							</tr>
 						<tr>
 						  <td>Ext:</td>
 						  <td>8966</td>
@@ -81,6 +85,10 @@
 						  <td>Mobile No.</td>
 						  <td>123-456-8990</td>
 						</tr>
+							<tr>
+							  <td></td>
+							  <td><button class="btn btn-primary">Hire</button></td>
+							</tr>
 					  </tbody>
 					</table>
 				  </div>
@@ -107,10 +115,10 @@
 				  <div class="card card-block">
 					<table class="table table-user-information">
 					  <tbody>
-						<tr>
-						  <td>Email:</td>
-						  <td><a href="mailto:info@support.com">vjindal@ca.mufg.ca</a></td>
-						</tr>
+							<tr>
+							  <td>Specialist:</td>
+							  <td>Web Developer</td>
+							</tr>
 						<tr>
 						  <td>Ext:</td>
 						  <td>8966</td>
@@ -120,6 +128,10 @@
 						  <td>Mobile No.</td>
 						  <td>123-456-8990</td>
 						</tr>
+							<tr>
+							  <td></td>
+							  <td><button class="btn btn-primary">Hire</button></td>
+							</tr>
 					  </tbody>
 					</table>
 				  </div>

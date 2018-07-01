@@ -7,7 +7,7 @@
 
 
   <!-- Services -->
-<div class="container-fluid">
+<div class="container leftToRight">
 	<div class="row">
       <div class="col-md-12">
         <p class="main_title"><span>OUR SERVICES</span></p>
@@ -15,7 +15,7 @@
     </div>
     <a href="services.php">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-3 boxBorder">
         <div class="box">
           <div class="box-icon"> <span class="fa fa-4x fa-magic"></span> </div>
           <div class="info">
@@ -26,7 +26,7 @@
       </div>
       </a>
       <a href="services.php">
-      <div class="col-md-4">
+      <div class="col-md-3 boxBorder">
         <div class="box">
           <div class="box-icon"> <span class="fa fa-4x fa-magic"></span> </div>
           <div class="info">
@@ -37,7 +37,18 @@
       </div>
       </a>
       <a href="services.php">
-      <div class="col-md-4">
+      <div class="col-md-3 boxBorder">
+        <div class="box">
+          <div class="box-icon"> <span class="fa fa-4x fa-magic"></span> </div>
+          <div class="info">
+            <h4 class="text-center">READING</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+          </div>
+        </div>
+      </div>
+      </a>
+      <a href="services.php">
+      <div class="col-md-3 boxBorder">
         <div class="box">
           <div class="box-icon"> <span class="fa fa-4x fa-magic"></span> </div>
           <div class="info">
@@ -49,6 +60,7 @@
       </a>
     </div>
 </div>
+ <br>
   <!-- Services -->
 
 <?php include "inc/footer.php"; ?>
