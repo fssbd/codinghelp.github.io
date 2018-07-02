@@ -6,7 +6,7 @@
     </head>
     <body>
         <div class="Simple-Form">
-            <form id="registration" method="post" action="../process/process_registration.php">
+            <form id="registration" method="post" action="process_registration.php">
                 <input type="text" name="fname" id="button" placeholder="Enter Your First Name"><br><br>
                 <input type="text" name="lname" id="button" placeholder="Enter Your Last Name"><br><br>
                 <input type="email" name="email" id="button" placeholder="Enter Your Email Id"><br><br>
