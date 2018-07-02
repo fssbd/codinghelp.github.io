@@ -19,8 +19,8 @@
         <div class="box">
           <div class="box-icon"> <span class="fa fa-4x fa-magic"></span> </div>
           <div class="info">
-            <h4 class="text-center">MUSIC</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+            <h4 class="text-center">Service Name</h4>
+            <p>This is a description of our services. This is a description of our services. This is a description of our services. This is a description of our services. This is a description of our services. </p>
           </div>
         </div>
       </div>
@@ -30,8 +30,8 @@
         <div class="box">
           <div class="box-icon"> <span class="fa fa-4x fa-magic"></span> </div>
           <div class="info">
-            <h4 class="text-center">DESIGNING</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+            <h4 class="text-center">Service Name</h4>
+            <p>This is a description of our services. This is a description of our services. This is a description of our services. This is a description of our services. This is a description of our services. </p>
           </div>
         </div>
       </div>
@@ -41,8 +41,8 @@
         <div class="box">
           <div class="box-icon"> <span class="fa fa-4x fa-magic"></span> </div>
           <div class="info">
-            <h4 class="text-center">READING</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+            <h4 class="text-center">Service Name</h4>
+            <p>This is a description of our services. This is a description of our services. This is a description of our services. This is a description of our services. This is a description of our services. </p>
           </div>
         </div>
       </div>
@@ -52,8 +52,8 @@
         <div class="box">
           <div class="box-icon"> <span class="fa fa-4x fa-magic"></span> </div>
           <div class="info">
-            <h4 class="text-center">READING</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+            <h4 class="text-center">Service Name</h4>
+            <p>This is a description of our services. This is a description of our services. This is a description of our services. This is a description of our services. This is a description of our services. </p>
           </div>
         </div>
       </div>
