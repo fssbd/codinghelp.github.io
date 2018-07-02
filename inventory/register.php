@@ -2,11 +2,11 @@
 <html>
     <head>
         <title> Registration Form</title>
-        <link rel="stylesheet" href="cs/registrtn.css" type="text/css">
+        <link rel="stylesheet" href="css/registrtn.css" type="text/css">
     </head>
     <body>
         <div class="Simple-Form">
-            <form id="registration">
+            <form id="registration" method="post" action="../process/process_registration.php">
                 <input type="text" name="fname" id="button" placeholder="Enter Your First Name"><br><br>
                 <input type="text" name="lname" id="button" placeholder="Enter Your Last Name"><br><br>
                 <input type="email" name="email" id="button" placeholder="Enter Your Email Id"><br><br>

@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url("anastasia-zhenina-65700-unsplash.jpg");
+    background: url("../images/loginPage.jpg");
     background-size: cover;
     font-family: sans-serif;
 }
@@ -20,6 +20,12 @@ body{
 
 h2{
     margin: 0;
+    padding: 0;
+    color: gold;
+    text-align: center;
+}
+.errorMessages{
+	margin: 0;
     padding: 0;
     color: gold;
     text-align: center;

@@ -41,7 +41,7 @@ $row = mysqli_fetch_array($result);
 if ($num > 0) {
     // output data of each row
     if($row) {
-        header('Location: ../index.html');
+        header('Location: ../index.php');
     }
 } else {
     echo "wrong information";
