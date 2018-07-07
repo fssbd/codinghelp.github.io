@@ -1,3 +1,15 @@
+<?php include 'config/config.php';?>
+<?php include 'lib/Database.php';?>
+<?php include 'helpers/Format.php';?>
+
+
+<?php
+
+	$db = new Database();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,8 +42,8 @@
         <li><a href="contact.php">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="myModal1"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        <li><a href="#">Register</a></li>
+        <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="register.php">Register</a></li>
       </ul>
     </div>
   </div>

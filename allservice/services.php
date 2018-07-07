@@ -33,8 +33,8 @@
 							  <td>Programmer</td>
 							</tr>
 							<tr>
-							  <td>Ext:</td>
-							  <td>8966</td>
+							  <td>Gender</td>
+							  <td>Female</td>
 
 							</tr>
 							<tr>
@@ -77,8 +77,8 @@
 							  <td>Network Engineer</td>
 							</tr>
 						<tr>
-						  <td>Ext:</td>
-						  <td>8966</td>
+						  <td>Gender</td>
+						  <td>Male</td>
 
 						</tr>
 						<tr>
@@ -120,8 +120,8 @@
 							  <td>Web Developer</td>
 							</tr>
 						<tr>
-						  <td>Ext:</td>
-						  <td>8966</td>
+						  <td>Gender</td>
+						  <td>Male</td>
 
 						</tr>
 						<tr>
