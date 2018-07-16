@@ -10,12 +10,12 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Dumping database structure for db_shop
-CREATE DATABASE IF NOT EXISTS `db_shop` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `db_shop`;
+-- Dumping database structure for codinghe_store
+CREATE DATABASE IF NOT EXISTS `codinghe_store` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `codinghe_store`;
 
 
--- Dumping structure for table db_shop.tbl_admin
+-- Dumping structure for table codinghe_store.tbl_admin
 CREATE TABLE IF NOT EXISTS `tbl_admin` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(255) NOT NULL,
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `tbl_admin` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
--- Dumping data for table db_shop.tbl_admin: 1 rows
+-- Dumping data for table codinghe_store.tbl_admin: 1 rows
 DELETE FROM `tbl_admin`;
 /*!40000 ALTER TABLE `tbl_admin` DISABLE KEYS */;
 INSERT INTO `tbl_admin` (`id`, `username`, `password`) VALUES
@@ -31,7 +31,7 @@ INSERT INTO `tbl_admin` (`id`, `username`, `password`) VALUES
 /*!40000 ALTER TABLE `tbl_admin` ENABLE KEYS */;
 
 
--- Dumping structure for table db_shop.tbl_books
+-- Dumping structure for table codinghe_store.tbl_books
 CREATE TABLE IF NOT EXISTS `tbl_books` (
   `bookId` int(11) NOT NULL AUTO_INCREMENT,
   `bookName` varchar(200) NOT NULL,
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `tbl_books` (
   PRIMARY KEY (`bookId`)
 ) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
 
--- Dumping data for table db_shop.tbl_books: 1 rows
+-- Dumping data for table codinghe_store.tbl_books: 1 rows
 DELETE FROM `tbl_books`;
 /*!40000 ALTER TABLE `tbl_books` DISABLE KEYS */;
 INSERT INTO `tbl_books` (`bookId`, `bookName`, `authorName`, `catId`, `catName`, `price`, `image`) VALUES
@@ -51,7 +51,7 @@ INSERT INTO `tbl_books` (`bookId`, `bookName`, `authorName`, `catId`, `catName`,
 /*!40000 ALTER TABLE `tbl_books` ENABLE KEYS */;
 
 
--- Dumping structure for table db_shop.tbl_branch
+-- Dumping structure for table codinghe_store.tbl_branch
 CREATE TABLE IF NOT EXISTS `tbl_branch` (
   `branchId` int(11) NOT NULL AUTO_INCREMENT,
   `branchName` varchar(150) NOT NULL,
@@ -59,7 +59,7 @@ CREATE TABLE IF NOT EXISTS `tbl_branch` (
   PRIMARY KEY (`branchId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
--- Dumping data for table db_shop.tbl_branch: ~2 rows (approximately)
+-- Dumping data for table codinghe_store.tbl_branch: ~2 rows (approximately)
 DELETE FROM `tbl_branch`;
 /*!40000 ALTER TABLE `tbl_branch` DISABLE KEYS */;
 INSERT INTO `tbl_branch` (`branchId`, `branchName`, `branchAddress`) VALUES
@@ -68,14 +68,14 @@ INSERT INTO `tbl_branch` (`branchId`, `branchName`, `branchAddress`) VALUES
 /*!40000 ALTER TABLE `tbl_branch` ENABLE KEYS */;
 
 
--- Dumping structure for table db_shop.tbl_category
+-- Dumping structure for table codinghe_store.tbl_category
 CREATE TABLE IF NOT EXISTS `tbl_category` (
   `catId` int(11) NOT NULL AUTO_INCREMENT,
   `catName` varchar(255) NOT NULL,
   PRIMARY KEY (`catId`)
 ) ENGINE=MyISAM AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
 
--- Dumping data for table db_shop.tbl_category: 12 rows
+-- Dumping data for table codinghe_store.tbl_category: 12 rows
 DELETE FROM `tbl_category`;
 /*!40000 ALTER TABLE `tbl_category` DISABLE KEYS */;
 INSERT INTO `tbl_category` (`catId`, `catName`) VALUES
@@ -94,7 +94,7 @@ INSERT INTO `tbl_category` (`catId`, `catName`) VALUES
 /*!40000 ALTER TABLE `tbl_category` ENABLE KEYS */;
 
 
--- Dumping structure for table db_shop.tbl_events
+-- Dumping structure for table codinghe_store.tbl_events
 CREATE TABLE IF NOT EXISTS `tbl_events` (
   `eventId` int(11) NOT NULL AUTO_INCREMENT,
   `eventName` varchar(200) NOT NULL,
@@ -102,7 +102,7 @@ CREATE TABLE IF NOT EXISTS `tbl_events` (
   PRIMARY KEY (`eventId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
 
--- Dumping data for table db_shop.tbl_events: ~7 rows (approximately)
+-- Dumping data for table codinghe_store.tbl_events: ~7 rows (approximately)
 DELETE FROM `tbl_events`;
 /*!40000 ALTER TABLE `tbl_events` DISABLE KEYS */;
 INSERT INTO `tbl_events` (`eventId`, `eventName`, `eventDescription`) VALUES
@@ -116,7 +116,7 @@ INSERT INTO `tbl_events` (`eventId`, `eventName`, `eventDescription`) VALUES
 /*!40000 ALTER TABLE `tbl_events` ENABLE KEYS */;
 
 
--- Dumping structure for table db_shop.tbl_offers
+-- Dumping structure for table codinghe_store.tbl_offers
 CREATE TABLE IF NOT EXISTS `tbl_offers` (
   `offerId` int(11) NOT NULL AUTO_INCREMENT,
   `offerName` varchar(200) NOT NULL,
@@ -124,7 +124,7 @@ CREATE TABLE IF NOT EXISTS `tbl_offers` (
   PRIMARY KEY (`offerId`)
 ) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 
--- Dumping data for table db_shop.tbl_offers: 8 rows
+-- Dumping data for table codinghe_store.tbl_offers: 8 rows
 DELETE FROM `tbl_offers`;
 /*!40000 ALTER TABLE `tbl_offers` DISABLE KEYS */;
 INSERT INTO `tbl_offers` (`offerId`, `offerName`, `offerDescription`) VALUES
@@ -139,7 +139,7 @@ INSERT INTO `tbl_offers` (`offerId`, `offerName`, `offerDescription`) VALUES
 /*!40000 ALTER TABLE `tbl_offers` ENABLE KEYS */;
 
 
--- Dumping structure for table db_shop.tbl_product
+-- Dumping structure for table codinghe_store.tbl_product
 CREATE TABLE IF NOT EXISTS `tbl_product` (
   `productId` int(11) NOT NULL AUTO_INCREMENT,
   `bookId` int(11) DEFAULT NULL,
@@ -154,7 +154,7 @@ CREATE TABLE IF NOT EXISTS `tbl_product` (
   PRIMARY KEY (`productId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 
--- Dumping data for table db_shop.tbl_product: ~2 rows (approximately)
+-- Dumping data for table codinghe_store.tbl_product: ~2 rows (approximately)
 DELETE FROM `tbl_product`;
 /*!40000 ALTER TABLE `tbl_product` DISABLE KEYS */;
 INSERT INTO `tbl_product` (`productId`, `bookId`, `bookName`, `authorName`, `catId`, `catName`, `branchId`, `branchName`, `price`, `image`) VALUES
