@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="exchangesoftware.info">
+    <meta name="author" content="codinghelpbd.com">
    	<meta name="description" content="Best Trusted site with good currency resources in Bangladesh. Change your wallet safely and instantly. We accept bKash, ROCKET, bank payment, PayPal, Skrill, Neteller, Payza, Payoneer, Perfect Money, BTC and any types of crypto currencies.">
 	<meta name="keywords" content="BD currency Exchanger, Best wallet exchangar, Bangladeshi trusted BTC site, Dollar, Bangladeshi Taka, BDT, bKash, ROCKET, bank payment, PayPal, Skrill, Neteller, Payza, Payoneer, Perfect Money, Web Money, DBBL bank, BRAC bank,  BTC, ETH, XRP, BCH, LTC, DA">
 	
@@ -41,21 +41,21 @@
 	<script src="assets/js/BitExchanger.js"></script>
   </head>
   <body>
-  
-  <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5a61c964d7591465c706e738/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-<script async src="//static.zotabox.com/6/2/62276e2d649b6ba97ff5a759dc23ce97/widgets.js"></script>
+  	
+  	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+	(function(){
+	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+	s1.async=true;
+	s1.src='https://embed.tawk.to/5a61c964d7591465c706e738/default';
+	s1.charset='UTF-8';
+	s1.setAttribute('crossorigin','*');
+	s0.parentNode.insertBefore(s1,s0);
+	})();
+	</script>
+	<!--End of Tawk.to Script-->
+	<script async src="//static.zotabox.com/6/2/62276e2d649b6ba97ff5a759dc23ce97/widgets.js"></script>
   
 	<!-- header -->
 	<header id="header" class="clearfix">
@@ -92,15 +92,16 @@ s0.parentNode.insertBefore(s1,s0);
 					<!-- sign-in -->					
 					<ul class="sign-in">
 						<li><i class="fa fa-user"></i></li>
-												<li><a href="#login">Login</a></li>
+						<li><a href="#login">Login</a></li>
 						<li><a href="#register">Create account</a></li>
-											</ul><!-- sign-in -->	
+					</ul><!-- sign-in -->	
 					
 					<div style="margin-left:20px;" class="dropdown language-dropdown">
 						<i class="fa fa-globe"></i> 						
 						<a data-toggle="dropdown" href="#"><span class="change-text">English</span> <i class="fa fa-angle-down"></i></a>
 						<ul class="dropdown-menu language-change">
-							<li><a href="#index.php?lang=English">English</a></						</ul>								
+							<li><a href="#index.php?lang=English">English</a>
+						</ul>								
 					</div><!-- language-dropdown -->					
 				</div>
 				<!-- nav-right -->
@@ -195,8 +196,8 @@ s0.parentNode.insertBefore(s1,s0);
 									<div class="featured">
 										<!-- ad-info -->
 										<div class="ad-info">
-																						<h3 class="item-price"><span class="label label-success" style="color:#fff;"><i class="fa fa-smile-o"></i> Positive</span></h3>
-																						<h4 class="item-title">It&#039;s one of the best currency exchange service in Bangladesh which has a good support stuff. It also pay you instantly.</h4>
+											<h3 class="item-price"><span class="label label-success" style="color:#fff;"><i class="fa fa-smile-o"></i> Positive</span></h3>
+											<h4 class="item-title">It&#039;s one of the best currency exchange service in Bangladesh which has a good support stuff. It also pay you instantly.</h4>
 											<div class="item-cat">
 												<span>arifkhbd1</span> 
 											</div>
@@ -206,11 +207,10 @@ s0.parentNode.insertBefore(s1,s0);
 									<div class="featured">
 										<!-- ad-info -->
 										<div class="ad-info">
-																						<h3 class="item-price"><span class="label label-success" style="color:#fff;"><i class="fa fa-smile-o"></i> Positive</span></h3>
-																						<h4 class="item-title">Thank you. 
-Received my transaction in 5 minutes.</h4>
+											<h3 class="item-price"><span class="label label-success" style="color:#fff;"><i class="fa fa-smile-o"></i> Positive</span></h3>
+											<h4 class="item-title">Thank you. Received my transaction in 5 minutes.</h4>
 											<div class="item-cat">
-												<span>swarup692</span> 
+												<span>Best Pay BD</span> 
 											</div>
 										</div><!-- ad-info -->
 									</div><!-- featured -->
@@ -218,8 +218,8 @@ Received my transaction in 5 minutes.</h4>
 									<div class="featured">
 										<!-- ad-info -->
 										<div class="ad-info">
-																						<h3 class="item-price"><span class="label label-success" style="color:#fff;"><i class="fa fa-smile-o"></i> Positive</span></h3>
-																						<h4 class="item-title">100% ট্রাস্টেড সাইট। তবে রেট একটু কমালে ভাল হয়। আর ফোন নাম্বার এর ইউজ না থাকলে ভাল হয়, শুধু ইমেলই যথেষ্ট বলে আমার ধারণা।</h4>
+											<h3 class="item-price"><span class="label label-success" style="color:#fff;"><i class="fa fa-smile-o"></i> Positive</span></h3>
+											<h4 class="item-title">100% ট্রাস্টেড সাইট। তবে রেট একটু কমালে ভাল হয়। আর ফোন নাম্বার এর ইউজ না থাকলে ভাল হয়, শুধু ইমেলই যথেষ্ট বলে আমার ধারণা।</h4>
 											<div class="item-cat">
 												<span>laddufuta</span> 
 											</div>
@@ -229,8 +229,8 @@ Received my transaction in 5 minutes.</h4>
 									<div class="featured">
 										<!-- ad-info -->
 										<div class="ad-info">
-																						<h3 class="item-price"><span class="label label-success" style="color:#fff;"><i class="fa fa-smile-o"></i> Positive</span></h3>
-																						<h4 class="item-title">very reliable site. got instant payment from them. 5 star from me</h4>
+											<h3 class="item-price"><span class="label label-success" style="color:#fff;"><i class="fa fa-smile-o"></i> Positive</span></h3>
+											<h4 class="item-title">very reliable site. got instant payment from them. 5 star from me</h4>
 											<div class="item-cat">
 												<span>sharfins</span> 
 											</div>
@@ -240,8 +240,8 @@ Received my transaction in 5 minutes.</h4>
 									<div class="featured">
 										<!-- ad-info -->
 										<div class="ad-info">
-																						<h3 class="item-price"><span class="label label-success" style="color:#fff;"><i class="fa fa-smile-o"></i> Positive</span></h3>
-																						<h4 class="item-title">very fast Exchange!!!</h4>
+											<h3 class="item-price"><span class="label label-success" style="color:#fff;"><i class="fa fa-smile-o"></i> Positive</span></h3>
+											<h4 class="item-title">very fast Exchange!!!</h4>
 											<div class="item-cat">
 												<span>shakil</span> 
 											</div>
@@ -279,247 +279,179 @@ Received my transaction in 5 minutes.</h4>
            </tr>
           </thead>
           <tbody>
-                        <tr>
-              <td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30"> </td>
-              <td>60 USD</td>
+               <tr>
+               		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30">  </td>
+				  	<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30"> </td>
+				  	<td>60 USD</td>
+               		<td>mirazul704</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+             	</tr>
+                <tr>
+                	<td><img src="assets/uploads/1514662540_icon.png" width="30px" height="30">  </td>
+					<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
+					<td>2910 BDT</td>
+                	<td>abrar1</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+             	</tr>
+                <tr>
+                	<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
+              		<td>2000 BDT</td>
               
-                <td>mirazul704</td>
-                <td>21/06/2018</span></td>
-              <td>
+                	<td>amanpatwary</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+             	</tr>
+                <tr>
+                	<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
+              		<td>3000 BDT</td>
+                	<td>esysbd</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+             	</tr>
+                <tr>
+                	<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
+				  	<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
+				  	<td>3000 BDT</td>
               
+					<td>esysbd</td>
+					<td><span>21/06/2018</span></td>
+              		<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Confirmation</span></td>
+             	</tr>
+                <tr>
+                	<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30"> </td>
+              		<td>52 USD</td>
+              		<td>BOSS</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+             	</tr>
+                <tr>
+                	<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
+              		<td>3000 BDT</td>
+              		<td>zahirulhaque</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+             	</tr>
+                <tr>
+                	<td><img src="assets/uploads/1514662540_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
+              		<td>3650 BDT</td>
               
-              <span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514662540_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-              <td>2910 BDT</td>
+                	<td>shohag1in</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+             	</tr>
+                <tr>
+                	<td><img src="assets/uploads/1514664173_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
+              		<td>1200 BDT</td>
+                	<td>ShibliMoon</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
+             	</tr>
+                <tr>
+              		<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
+              		<td>3000 BDT</td>
+              		<td>RUSSELL2018</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+             	</tr>
+                <tr>
+                	<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
+              		<td>1590 BDT</td>
               
-                <td>abrar1</td>
-                <td>21/06/2018</span></td>
-              <td>
+                	<td>princemamunur</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+             	</tr>
+                <tr>
+              		<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
+              		<td>2000 BDT</td>
               
+                	<td>SOMRAT</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
+             	</tr>
+                <tr>
+                	<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
+              		<td>4900 BDT</td>
               
-              <span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-              <td>2000 BDT</td>
+                	<td>arif4321</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+             	</tr>
+                <tr>
+              		<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
+              		<td>2475 BDT</td>
+                	<td>alimran</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+             	</tr>
+                <tr>
+              		<td><img src="assets/uploads/1514662540_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
+              		<td>5000 BDT</td>
               
-                <td>amanpatwary</td>
-                <td>21/06/2018</span></td>
-              <td>
+                	<td>pasha</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+             	</tr>
+                <tr>
+              		<td><img src="assets/uploads/1514662540_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
+              		<td>10000 BDT</td>
               
+                	<td>Pashasikder</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+             	</tr>
+                <tr>
+              		<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
+              		<td>5000 BDT</td>
               
-              <span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              <td>3000 BDT</td>
+                	<td>NomanNirob</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+             	</tr>
+                <tr>
+              		<td><img src="assets/uploads/1514662540_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
+              		<td>14550 BDT</td>
               
-                <td>esysbd</td>
-                <td>21/06/2018</span></td>
-              <td>
+                	<td>Pashasikder</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
+             	</tr>
+                <tr>
+              		<td><img src="assets/uploads/1514662052_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30"> </td>
+              		<td>11 USD</td>
               
+                	<td>bariulalam</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+             	</tr>
+                <tr>
+              		<td><img src="assets/uploads/1514664173_icon.png" width="30px" height="30">  </td>
+              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
+              		<td>1200 BDT</td>
               
-              <span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              <td>3000 BDT</td>
-              
-                <td>esysbd</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Confirmation</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30"> </td>
-              <td>52 USD</td>
-              
-                <td>BOSS</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              <td>3000 BDT</td>
-              
-                <td>zahirulhaque</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514662540_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              <td>3650 BDT</td>
-              
-                <td>shohag1in</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514664173_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              <td>1200 BDT</td>
-              
-                <td>ShibliMoon</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              <td>3000 BDT</td>
-              
-                <td>RUSSELL2018</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-              <td>1590 BDT</td>
-              
-                <td>princemamunur</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-              <td>2000 BDT</td>
-              
-                <td>SOMRAT</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              <td>4900 BDT</td>
-              
-                <td>arif4321</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-              <td>2475 BDT</td>
-              
-                <td>alimran</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514662540_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-              <td>5000 BDT</td>
-              
-                <td>pasha</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514662540_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-              <td>10000 BDT</td>
-              
-                <td>Pashasikder</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              <td>5000 BDT</td>
-              
-                <td>NomanNirob</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514662540_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-              <td>14550 BDT</td>
-              
-                <td>Pashasikder</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514662052_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30"> </td>
-              <td>11 USD</td>
-              
-                <td>bariulalam</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             </tr>
-                          <tr>
-              <td><img src="assets/uploads/1514664173_icon.png" width="30px" height="30">  </td>
-              <td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              <td>1200 BDT</td>
-              
-                <td>bejoykhan100</td>
-                <td>21/06/2018</span></td>
-              <td>
-              
-              
-              <span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
-             </tr>
-                       </tbody>
+                	<td>bejoykhan100</td>
+                	<td><span>21/06/2018</span></td>
+              		<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
+             	</tr>
+             </tbody>
          </table>
         </div>
        </div>
@@ -751,7 +683,7 @@ width="88" height="31" border="0" /></a>
 						<div class="footer-widget news-letter">
 							<h3>Language</h3>
 							<ul>
-								<li><a href="#index.php?lang=English">English</a></							</ul>		
+								<li><a href="#index.php?lang=English">English</a></ul>		
 						</div>
 					</div><!-- footer-widget -->
 				</div><!-- row -->
