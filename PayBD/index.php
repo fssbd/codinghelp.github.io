@@ -70,7 +70,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#"><img class="img-responsive" src="assets/images/logo.png" alt="Logo"></a>
+					<a class="navbar-brand" href="#"><img class="img-responsive" src="assets/images/logo.png" alt="Logo" style="width:70px;"></a>
 				</div>
 				<!-- /navbar-header -->
 				
@@ -664,16 +664,16 @@
 						<div class="footer-widget social-widget">
 							<h3>Follow us on</h3>
 							<ul>
-								<li><a href="https://www.facebook.com/SwapCost"><i class="fa fa-facebook-official"></i>Facebook</a></li>
-								<li><a href="https://twitter.com/swapcost"><i class="fa fa-twitter-square"></i>Twitter</a></li>
-								<li><a href="https://plus.google.com/+SwapCost"><i class="fa fa-google-plus-square"></i>Google+</a></li>
-								<li><a href="https://www.youtube.com/swapcost"><i class="fa fa-youtube-play"></i>youtube</a></li>
-								<a href="https://getecurrency.net/swapcost/"
+								<li><a href="https://www.facebook.com/codinghelpbd"><i class="fa fa-facebook-official"></i>Facebook</a></li>
+								<li><a href="https://twitter.com/codinghelpbd"><i class="fa fa-twitter-square"></i>Twitter</a></li>
+								<li><a href="https://plus.google.com/+codinghelpbd"><i class="fa fa-google-plus-square"></i>Google+</a></li>
+								<li><a href="https://www.youtube.com/codinghelpbd"><i class="fa fa-youtube-play"></i>youtube</a></li>
+								<!--<a href="https://getecurrency.net/codinghelpbd/"
 title="Getecurrency.net"
 target="_blank"><img
 src="https://getecurrency.net/wp-content/uploads/2017/10/small-size-GEC.jpg"
 alt="Trusted E-Currency Exchangers and forex brokers advisor."
-width="88" height="31" border="0" /></a>
+width="88" height="31" border="0" /></a>-->
 							</ul>
 						</div>
 					</div><!-- footer-widget -->
@@ -693,7 +693,7 @@ width="88" height="31" border="0" /></a>
 		
 		<div class="footer-bottom clearfix text-center">
 			<div class="container">
-				<p>Copyright &copy; 2018 by SwapCost</p>
+				<p>Copyright &copy; 2018 by codinghelpbd</p>
 			</div>
 		</div><!-- footer-bottom -->
 	</footer><!-- footer -->
@@ -785,7 +785,7 @@ width="88" height="31" border="0" /></a>
 			</div>
 			<!-- login and register modals-->
 	
-	<input type="hidden" id="url" value="https://swapcost.com//">
+	<input type="hidden" id="url" value="http://codinghelpbd.com">
     <!-- JS -->
     <script src="assets/js/modernizr.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
