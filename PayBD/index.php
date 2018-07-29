@@ -43,7 +43,7 @@
   <body>
   	
   	<!--Start of Tawk.to Script-->
-	<script type="text/javascript">
+	<!--<script type="text/javascript">
 	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 	(function(){
 	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -53,9 +53,9 @@
 	s1.setAttribute('crossorigin','*');
 	s0.parentNode.insertBefore(s1,s0);
 	})();
-	</script>
+	</script>-->
 	<!--End of Tawk.to Script-->
-	<script async src="//static.zotabox.com/6/2/62276e2d649b6ba97ff5a759dc23ce97/widgets.js"></script>
+	<!--<script async src="//static.zotabox.com/6/2/62276e2d649b6ba97ff5a759dc23ce97/widgets.js"></script>-->
   
 	<!-- header -->
 	<header id="header" class="clearfix">
@@ -122,60 +122,60 @@
 						<div class="section">
 							<div class="row" id="bit_exchange_box">
 					<div id="bit_exchange_results"></div>
-								<form id="bit_exchange_form">
-								<div class="col-md-6">
-									<div class="row">
-										<div class="col-md-3 hidden-xs hidden-sm">
-											<div style="margin-top:50px;">
-												<img src="assets/icons/Bitcoin.png" id="bit_image_send" width="72px" height="72px" class="img-circle img-bordered">
-											</div>
-										</div>
-										<div class="col-md-9">
-											<h3><i class="fa fa-arrow-down"></i> Send</h3>
-											<div class="form-group">
-												<select class="form-control form_style_1 input-lg" id="bit_gateway_send" name="bit_gateway_send" onchange="bit_refresh('1');">
-													<option value="7" >Skrill. USD</option><option value="8" >Neteller. USD</option><option value="9" >Perfect Money. USD</option><option value="10" >Payeer. USD</option><option value="11" >Bkash Agent BDT</option><option value="14" selected>bKash Personal BDT</option><option value="15" >Rocket Personal BDT</option><option value="23" >Coinbase BTC USD</option><option value="24" >Coinbase ETH USD</option><option value="25" >Coinbase LTC USD</option><option value="26" >Coinbase BCH USD</option>												</select>
-											</div>
-											<div class="form-group">
-												<input type="text" class="form-control form_style_1 input-lg" id="bit_amount_send" name="bit_amount_send" value="0" onkeyup="bit_calculator();" onkeydown="bit_calculator();">
-											</div>
-											<div class="text text-muted pull-right" style="padding-bottom:10px;font-weight:bold;">Exchange rate: <span id="bit_exchange_rate">-</span></div>
-										</div>
+						<form id="bit_exchange_form">
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-3 hidden-xs hidden-sm">
+									<div style="margin-top:50px;">
+										<img src="assets/icons/Bitcoin.png" id="bit_image_send" width="72px" height="72px" class="img-circle img-bordered">
 									</div>
 								</div>
-								<div class="col-md-6">
-									<div class="row">
-										<div class="col-md-9">
-											<h3><i class="fa fa-arrow-up"></i> Receive</h3>
-											<div class="form-group">
-												<select class="form-control form_style_1 input-lg" id="bit_gateway_receive" name="bit_gateway_receive"  onchange="bit_refresh('2');">
-													<option value="7" >Skrill. USD</option><option value="8" >Neteller. USD</option><option value="9" selected>Perfect Money. USD</option><option value="10" >Payeer. USD</option><option value="14" >bKash Personal BDT</option><option value="15" >Rocket Personal BDT</option><option value="20" >Payza. USD</option><option value="21" >WebMoney. USD</option><option value="22" >PayPal. USD</option><option value="23" >Coinbase BTC USD</option><option value="27" >Payoneer. USD</option>												</select>
-											</div>
-											<div class="form-group">
-												<input type="text" class="form-control form_style_1 input-lg" id="bit_amount_receive" name="bit_amount_receive" disabled value="0">
-											</div>
-											<div class="text text-muted" style="padding-bottom:10px;font-weight:bold;">Reserve: <span id="bit_reserve">-</span></div>
-										</div>
-										<div class="col-md-3 hidden-xs hidden-sm">
-											<div style="margin-top:50px;">
-												<img src="assets/icons/Skrill.png" id="bit_image_receive" width="72px" height="72px" class="img-circle img-bordered">
-											</div>
-										</div>
+								<div class="col-md-9">
+									<h3><i class="fa fa-arrow-down"></i> Send</h3>
+									<div class="form-group">
+										<select class="form-control form_style_1 input-lg" id="bit_gateway_send" name="bit_gateway_send" onchange="bit_refresh('1');">
+											<option value="7" >Skrill. USD</option><option value="8" >Neteller. USD</option><option value="9" >Perfect Money. USD</option><option value="10" >Payeer. USD</option><option value="11" >Bkash Agent BDT</option><option value="14" selected>bKash Personal BDT</option><option value="15" >Rocket Personal BDT</option><option value="23" >Coinbase BTC USD</option><option value="24" >Coinbase ETH USD</option><option value="25" >Coinbase LTC USD</option><option value="26" >Coinbase BCH USD</option>												</select>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control form_style_1 input-lg" id="bit_amount_send" name="bit_amount_send" value="0" onkeyup="bit_calculator();" onkeydown="bit_calculator();">
+									</div>
+									<div class="text text-muted pull-right" style="padding-bottom:10px;font-weight:bold;">Exchange rate: <span id="bit_exchange_rate">-</span></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-9">
+									<h3><i class="fa fa-arrow-up"></i> Receive</h3>
+									<div class="form-group">
+										<select class="form-control form_style_1 input-lg" id="bit_gateway_receive" name="bit_gateway_receive"  onchange="bit_refresh('2');">
+											<option value="7" >Skrill. USD</option><option value="8" >Neteller. USD</option><option value="9" selected>Perfect Money. USD</option><option value="10" >Payeer. USD</option><option value="14" >bKash Personal BDT</option><option value="15" >Rocket Personal BDT</option><option value="20" >Payza. USD</option><option value="21" >WebMoney. USD</option><option value="22" >PayPal. USD</option><option value="23" >Coinbase BTC USD</option><option value="27" >Payoneer. USD</option>												</select>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control form_style_1 input-lg" id="bit_amount_receive" name="bit_amount_receive" disabled value="0">
+									</div>
+									<div class="text text-muted" style="padding-bottom:10px;font-weight:bold;">Reserve: <span id="bit_reserve">-</span></div>
+								</div>
+								<div class="col-md-3 hidden-xs hidden-sm">
+									<div style="margin-top:50px;">
+										<img src="assets/icons/Skrill.png" id="bit_image_receive" width="72px" height="72px" class="img-circle img-bordered">
 									</div>
 								</div>
-								<div class="col-md-12">
-									<input type="hidden" name="bit_amount_receive" id="bit_amount_receive2">
-									<input type="hidden" name="bit_rate_from" id="bit_rate_from">
-									<input type="hidden" name="bit_rate_to" id="bit_rate_to">
-									<input type="hidden" name="bit_currency_from" id="bit_currency_from">
-									<input type="hidden" name="bit_currency_to" id="bit_currency_to">
-									<input type="hidden" id="bit_login_to_exchange" name="bit_login_to_exchange" value="1">
-									<input type="hidden" id="bit_ses_uid" name="bit_ses_uid" value="0">
-									<center>
-										<button type="button" class="btn btn-primary btn-lg"  onclick="bit_exchange_step_1();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-refresh"></i> Exchange&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-									</center>
-								</div>
-							</form>			
+							</div>
+						</div>
+						<div class="col-md-12">
+							<input type="hidden" name="bit_amount_receive" id="bit_amount_receive2">
+							<input type="hidden" name="bit_rate_from" id="bit_rate_from">
+							<input type="hidden" name="bit_rate_to" id="bit_rate_to">
+							<input type="hidden" name="bit_currency_from" id="bit_currency_from">
+							<input type="hidden" name="bit_currency_to" id="bit_currency_to">
+							<input type="hidden" id="bit_login_to_exchange" name="bit_login_to_exchange" value="1">
+							<input type="hidden" id="bit_ses_uid" name="bit_ses_uid" value="0">
+							<center>
+								<button type="button" class="btn btn-primary btn-lg"  onclick="bit_exchange_step_1();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-refresh"></i> Exchange&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+							</center>
+						</div>
+					</form>			
 							</div>
 						</div><!-- category-ad -->	
 						
@@ -266,193 +266,44 @@
                     <div class="col-md-8">
                     <table class="table table-striped table-hover table-bordered">
   <thead>
-    <tr>
-        
-            <th>Send</th>
-            <th>Receive</th>
-            <th>Amount</th>
+   	<tr>
+       <th>Send</th>
+       <th>Receive</th>
+       <th>Amount</th>
+       <th>Username</th>
+       <th>Date</th>
+       <th>Status</th>
             
-            <th>Username</th>
-            <th>Date</th>
-            <th>Status</th>
-            
-           </tr>
-          </thead>
-          <tbody>
-               <tr>
-               		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30">  </td>
-				  	<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30"> </td>
-				  	<td>60 USD</td>
-               		<td>mirazul704</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             	</tr>
-                <tr>
-                	<td><img src="assets/uploads/1514662540_icon.png" width="30px" height="30">  </td>
-					<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-					<td>2910 BDT</td>
-                	<td>abrar1</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             	</tr>
-                <tr>
-                	<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-              		<td>2000 BDT</td>
-              
-                	<td>amanpatwary</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             	</tr>
-                <tr>
-                	<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              		<td>3000 BDT</td>
-                	<td>esysbd</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             	</tr>
-                <tr>
-                	<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-				  	<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-				  	<td>3000 BDT</td>
-              
-					<td>esysbd</td>
-					<td><span>21/06/2018</span></td>
-              		<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Confirmation</span></td>
-             	</tr>
-                <tr>
-                	<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30"> </td>
-              		<td>52 USD</td>
-              		<td>BOSS</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             	</tr>
-                <tr>
-                	<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              		<td>3000 BDT</td>
-              		<td>zahirulhaque</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             	</tr>
-                <tr>
-                	<td><img src="assets/uploads/1514662540_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              		<td>3650 BDT</td>
-              
-                	<td>shohag1in</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             	</tr>
-                <tr>
-                	<td><img src="assets/uploads/1514664173_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              		<td>1200 BDT</td>
-                	<td>ShibliMoon</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
-             	</tr>
-                <tr>
-              		<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              		<td>3000 BDT</td>
-              		<td>RUSSELL2018</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             	</tr>
-                <tr>
-                	<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-              		<td>1590 BDT</td>
-              
-                	<td>princemamunur</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             	</tr>
-                <tr>
-              		<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-              		<td>2000 BDT</td>
-              
-                	<td>SOMRAT</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
-             	</tr>
-                <tr>
-                	<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              		<td>4900 BDT</td>
-              
-                	<td>arif4321</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             	</tr>
-                <tr>
-              		<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-              		<td>2475 BDT</td>
-                	<td>alimran</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             	</tr>
-                <tr>
-              		<td><img src="assets/uploads/1514662540_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-              		<td>5000 BDT</td>
-              
-                	<td>pasha</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             	</tr>
-                <tr>
-              		<td><img src="assets/uploads/1514662540_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-              		<td>10000 BDT</td>
-              
-                	<td>Pashasikder</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             	</tr>
-                <tr>
-              		<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              		<td>5000 BDT</td>
-              
-                	<td>NomanNirob</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             	</tr>
-                <tr>
-              		<td><img src="assets/uploads/1514662540_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30"> </td>
-              		<td>14550 BDT</td>
-              
-                	<td>Pashasikder</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
-             	</tr>
-                <tr>
-              		<td><img src="assets/uploads/1514662052_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30"> </td>
-              		<td>11 USD</td>
-              
-                	<td>bariulalam</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-             	</tr>
-                <tr>
-              		<td><img src="assets/uploads/1514664173_icon.png" width="30px" height="30">  </td>
-              		<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
-              		<td>1200 BDT</td>
-              
-                	<td>bejoykhan100</td>
-                	<td><span>21/06/2018</span></td>
-              		<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
-             	</tr>
-             </tbody>
-         </table>
+    </tr>
+   </thead>
+   <tbody>
+        <tr>
+			<td><img src="assets/uploads/1514661226_icon.png" width="30px" height="30">  </td>
+			<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30"> </td>
+			<td>60 USD</td>
+			<td>mirazul704</td>
+			<td><span>21/06/2018</span></td>
+			<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+        </tr>
+		<tr>
+			<td><img src="assets/uploads/1514664044_icon.png" width="30px" height="30">  </td>
+			<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
+			<td>3000 BDT</td>
+
+			<td>esysbd</td>
+			<td><span>21/06/2018</span></td>
+			<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Confirmation</span></td>
+		</tr>
+		<tr>
+			<td><img src="assets/uploads/1514664173_icon.png" width="30px" height="30">  </td>
+			<td><img src="assets/uploads/1514658659_icon.png" width="30px" height="30"> </td>
+			<td>1200 BDT</td>
+			<td>ShibliMoon</td>
+			<td><span>21/06/2018</span></td>
+			<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
+		</tr>
+      </tbody>
+    </table>
         </div>
        </div>
        </div>
