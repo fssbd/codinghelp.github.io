@@ -1,0 +1,37 @@
+
+body{
+	background-image: url("../../images/main1.png");
+   	background-color: #cccccc;
+	/*background-image: url("/images/main1.png");
+ 	background-repeat: no-repeat;
+ 	background-position: top center;
+ 	background-color: darkseagreen;*/
+}
+
+
+
+
+
+.navbar-default{
+	padding-bottom: 70%;
+}
+footer{
+	background-color:black; padding-top: 10px; padding-bottom: 10px;
+}
+footer.p{
+	color: white; text-align: center; padding-top:10; padding-bottom:10px;
+}
+.box {
+	overflow: hidden;
+    position: relative;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #fff;
+    color: #000;
+}
+.clear{
+	margin: 5px;
+	padding: 5px;
+}
