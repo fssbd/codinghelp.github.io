@@ -1,8 +1,8 @@
-    
-    
-    <br>
 
-    <footer class="container-fluid text-center" style="background-color:black">
-      <p style="font-color: white">Developed By</p>
-      <p style= "font-color:white"></p>
-    </footer>
+
+		<footer class="container-fluid text-center">
+		  <p>Developed By: <a href="http://www.codinghelpbd.com">CodingHelpBD.com</a></p>
+		</footer>
+
+	</body>
+</html>

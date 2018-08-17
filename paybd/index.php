@@ -1,77 +1,10 @@
-<?php include 'config/config.php';?>
-<?php include 'lib/Database.php';?>
 
 
 
 
 
 
-
-<?php
-
-	$db = new Database();
-
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-	  <title>PRIHUTA BookStore</title>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-	  <link rel="stylesheet" href="assets/bootstrap/css/style.css">
-	  <link href="assets/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
-	  <script src="assets/bootstrap/js/jquery-3.3.1.min.js"></script>
-	  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	</head>
-	<body>
-		<!-- navbar -->
-	<nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>                        
-          </button>
-          <a class="navbar-brand" href="index.php">
-          	<img class="img-responsive" src="assets/images/logo.png" style="width:30%;" alt="Logo" >
-          </a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <!--<li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Category-1</a></li>
-                  <li><a href="#">Category-2</a></li>
-                  <li><a href="#">Category-3</a></li>
-                </ul>
-            </li>-->
-            <li><a href="#">Exchange</a></li>
-			<li><a href="#testimonials">Testimonials</a></li>
-			<li><a href="#affiliate">Affiliate</a></li> 
-			<li><a href="#contact">Contact</a></li> 
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-          <div class="col-sm-3 col-md-3">
-            <form class="navbar-form" role="search">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search" name="name" required="required">
-                    <div class="input-group-btn">
-                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-                    </div>
-                </div>
-            </form>
-          </div>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<?php include 'inc/header.php';?>
 	
 	<div class="container">
 		<div class="row">
@@ -132,62 +65,92 @@
 						</div>
 					</form>	
 				</div>
-				<div class="clear">
-					
-				</div>
-				<div class="box">
-					<div class="col-md-9">
-						<h2>What our customers say</h2>
+				
+				<div class="clear">	</div>
+				
+				<div class="box ">
+					<div class='col-md-12 text-center'>
+						<h2>Testimonial</h2>
 					</div>
-					<div class="col-md-9">
-					  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-						<!-- Indicators -->
+					<div class='col-md-12'>
+					  <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+						<!-- Bottom Carousel Indicators -->
 						<ol class="carousel-indicators">
-						  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-						  <li data-target="#myCarousel" data-slide-to="1"></li>
-						  <li data-target="#myCarousel" data-slide-to="2"></li>
+						  <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+						  <li data-target="#quote-carousel" data-slide-to="1"></li>
+						  <li data-target="#quote-carousel" data-slide-to="2"></li>
 						</ol>
 
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner" role="listbox">
+						<!-- Carousel Slides / Quotes -->
+						<div class="carousel-inner">
+
+						  <!-- Quote 1 -->
 						  <div class="item active">
-							<h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+							<blockquote>
+							  <div class="row">
+								<div class="col-sm-2 text-center">
+								  <img class="img-circle" src="assets/images/female.jpg" style="width: 100px;height:100px;">
+								</div>
+								<div class="col-sm-10">
+								  <p>100% ট্রাস্টেড সাইট। তবে রেট একটু কমালে ভাল হয়। আর ফোন নাম্বার এর ইউজ না থাকলে ভাল হয়, শুধু ইমেলই যথেষ্ট বলে আমার ধারণা।</p>
+								  <small>Someone famous</small>
+								</div>
+							  </div>
+							</blockquote>
 						  </div>
+						  <!-- Quote 2 -->
 						  <div class="item">
-							<h4>"100% ট্রাস্টেড সাইট। তবে রেট একটু কমালে ভাল হয়। আর ফোন নাম্বার এর ইউজ না থাকলে ভাল হয়, শুধু ইমেলই যথেষ্ট বলে আমার ধারণা।"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+							<blockquote>
+							  <div class="row">
+								<div class="col-sm-3 text-center">
+								  <img class="img-circle" src="assets/images/female.jpg" style="width: 100px;height:100px;">
+								</div>
+								<div class="col-sm-9">
+								  <p>Could I... BE any more happy with this company?</p>
+								  <small>Someone famous</small>
+								</div>
+							  </div>
+							</blockquote>
 						  </div>
+						  <!-- Quote 3 -->
 						  <div class="item">
-							<h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+							<blockquote>
+							  <div class="row">
+								<div class="col-sm-3 text-center">
+								  <img class="img-circle" src="assets/images/female.jpg" style="width: 100px;height:100px;">
+								</div>
+								<div class="col-sm-9">
+								  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
+								  <small>Someone famous</small>
+								</div>
+							  </div>
+							</blockquote>
 						  </div>
 						</div>
 
-						<!-- Left and right controls -->
-						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-						  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-						  <span class="sr-only">Previous</span>
-						</a>
-						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-						  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-						  <span class="sr-only">Next</span>
-						</a>
-					  </div>
+						<!-- Carousel Buttons Next/Prev -->
+						<a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+						<a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+					  </div>                          
+					</div>
 				</div>
-				</div>
+				
+				<div class="clear">	</div>
 				
 				
 			</div>
 			<div class="col-md-3">
 				<div class="box">
-					Hello
+					<div class='col-md-12 text-center'>
+						<h2>Tracking No</h2>
+					</div><div class='col-md-12 text-center'>
+						<h2>Tracking No</h2>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
 
-		<footer class="container-fluid text-center">
-		  <p>Developed By: <a href="http://www.codinghelpbd.com">CodingHelpBD.com</a></p>
-		</footer>
 
-	</body>
-</html>
+<?php include 'inc/footer.php';?>
