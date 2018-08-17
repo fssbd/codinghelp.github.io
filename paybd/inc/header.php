@@ -10,19 +10,26 @@
 
 <!DOCTYPE html>
 <html lang="en">
+	<body>
+	
+	
+	
 	<head>
 	  <title>Best Pay BD</title>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-	  <link rel="stylesheet" href="assets/bootstrap/css/style.css">
+	  <link rel="stylesheet" href="assets/bootstrap3.3.7/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="assets/bootstrap3.3.7/css/style.css">
 	  <link href="assets/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
-	  <script src="assets/bootstrap/js/jquery-3.3.1.min.js"></script>
-	  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	  <script src="assets/bootstrap/js/common.js"></script>
+	  <script src="assets/bootstrap3.3.7/js/jquery-3.3.1.min.js"></script>
+	  <script src="assets/bootstrap3.3.7/js/bootstrap.min.js"></script>
+	  <script src="assets/bootstrap3.3.7/js/common.js"></script>
+	  
+	  
 	</head>
-	<body>
-		<!-- navbar -->
+
+	
+	<!-- navbar -->
 	<nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
