@@ -27,7 +27,7 @@
 	</head>
 	<body>
 		<!-- navbar -->
-		<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -36,7 +36,7 @@
             <span class="icon-bar"></span>                        
           </button>
           <a class="navbar-brand" href="index.php">
-          	<img class="img-responsive" src="images/logo.png" style="width:30%;" alt="Logo" >
+          	<img class="img-responsive" src="assets/images/logo.png" style="width:30%;" alt="Logo" >
           </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
@@ -82,7 +82,7 @@
 							<div class="row">
 								<div class="col-md-3 hidden-xs hidden-sm">
 									<div style="margin-top:50px;">
-										<img src="assets/icons/Bitcoin.png" id="bit_image_send" width="72px" height="72px" class="img-circle img-bordered">
+										<img src="assets/images/icons/Bitcoin.png" id="bit_image_send" width="72px" height="72px" class="img-circle img-bordered">
 									</div>
 								</div>
 								<div class="col-md-9">
@@ -113,7 +113,7 @@
 								</div>
 								<div class="col-md-3 hidden-xs hidden-sm">
 									<div style="margin-top:50px;">
-										<img src="assets/icons/Skrill.png" id="bit_image_receive" width="72px" height="72px" class="img-circle img-bordered">
+										<img src="assets/images/icons/Skrill.png" id="bit_image_receive" width="72px" height="72px" class="img-circle img-bordered">
 									</div>
 								</div>
 							</div>
@@ -186,7 +186,7 @@
 
 
 		<footer class="container-fluid text-center">
-		  <p>Developed By: CodingHelpBD.com</p>
+		  <p>Developed By: <a href="http://www.codinghelpbd.com">CodingHelpBD.com</a></p>
 		</footer>
 
 	</body>
