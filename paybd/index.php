@@ -136,6 +136,62 @@
 				</div>
 				<!--Testimonials End-->
 				
+				<div class="clear">	</div>			
+				
+				<!--Our Reserve Start-->
+				<div class="box ">
+					<div class="col-md-12 text-center">
+						<h2>Letest Exchange</h2>
+					</div>
+					<div class="col-md-12">
+						<!--<div class="row">-->
+                    <!--<div class="col-md-8">-->
+                    <table class="table table-striped table-hover table-bordered">
+					 <thead>
+						<tr>
+							<th>Send</th>
+							<th>Receive</th>
+							<th>Amount</th>
+
+							<th>Username</th>
+							<th>Date</th>
+							<th>Status</th>
+						  </tr>
+					</thead>
+						  <tbody>
+							   <tr>
+									<td><img src="assets/images/icons/Bitcoin.png" width="30px" height="30">  </td>
+									<td><img src="assets/images/icons/Dogecoin.png" width="30px" height="30"> </td>
+									<td>60 USD</td>
+									<td>mirazul704</td>
+									<td><span>21/06/2018</span></td>
+									<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+								</tr>
+								<tr>
+									<td><img src="assets/images/icons/Dogecoin.png" width="30px" height="30">  </td>
+									<td><img src="assets/images/icons/Dogecoin.png" width="30px" height="30"> </td>
+									<td>3000 BDT</td>
+
+									<td>esysbd</td>
+									<td><span>21/06/2018</span></td>
+									<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Confirmation</span></td>
+								</tr>
+								<tr>
+									<td><img src="assets/images/icons/Dogecoin.png" width="30px" height="30">  </td>
+									<td><img src="assets/images/icons/Dogecoin.png" width="30px" height="30"> </td>
+									<td>1200 BDT</td>
+									<td>ShibliMoon</td>
+									<td><span>21/06/2018</span></td>
+									<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
+								</tr>
+							 </tbody>
+						 </table>
+						<!--</div>-->
+					   <!--</div>-->
+					</div>
+				</div>
+				<!--Our Reserve End-->
+				
 				<div class="clear">	</div>
 				
 				<!--Our Coustomer Info Start-->
@@ -182,7 +238,6 @@
 					</div>
 				</div>
 				<!--Our Coustomer Info End-->
-				
 				
 			</div>
 			<div class="col-md-3">
