@@ -10,9 +10,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-	<body>
-	
-	
+	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 	
 	<head>
 	  <title>Best Pay BD</title>
@@ -24,13 +22,15 @@
 	  <script src="assets/bootstrap3.3.7/js/jquery-3.3.1.min.js"></script>
 	  <script src="assets/bootstrap3.3.7/js/bootstrap.min.js"></script>
 	  <script src="assets/bootstrap3.3.7/js/common.js"></script>
+	  <script type="text/javascript" src="assets/bootstrap3.3.7/js/Waypoints-4.0.0.js"></script>
+	  <script type="text/javascript" src="assets/bootstrap3.3.7/js/jquery.counterup-1.0.js"></script>
 	  
 	  
 	</head>
 
 	
 	<!-- navbar -->
-	<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-inverse" id="navFix">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">

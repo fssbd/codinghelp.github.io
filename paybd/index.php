@@ -68,11 +68,11 @@
 				
 				<div class="clear">	</div>
 				
-				<div class="box ">
-					<div class='col-md-12 text-center'>
+				<div class="box">
+					<div class="col-md-12 text-center">
 						<h2>Testimonial</h2>
 					</div>
-					<div class='col-md-12'>
+					<div class="col-md-12">
 					  <div class="carousel slide" data-ride="carousel" id="quote-carousel">
 						<!-- Bottom Carousel Indicators -->
 						<ol class="carousel-indicators">
@@ -102,10 +102,10 @@
 						  <div class="item">
 							<blockquote>
 							  <div class="row">
-								<div class="col-sm-3 text-center">
+								<div class="col-sm-2 text-center">
 								  <img class="img-circle" src="assets/images/female.jpg" style="width: 100px;height:100px;">
 								</div>
-								<div class="col-sm-9">
+								<div class="col-sm-10">
 								  <p>Could I... BE any more happy with this company?</p>
 								  <small>Someone famous</small>
 								</div>
@@ -116,10 +116,10 @@
 						  <div class="item">
 							<blockquote>
 							  <div class="row">
-								<div class="col-sm-3 text-center">
+								<div class="col-sm-2 text-center">
 								  <img class="img-circle" src="assets/images/female.jpg" style="width: 100px;height:100px;">
 								</div>
-								<div class="col-sm-9">
+								<div class="col-sm-10">
 								  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
 								  <small>Someone famous</small>
 								</div>
@@ -134,17 +134,96 @@
 					  </div>                          
 					</div>
 				</div>
+				<!--Testimonials End-->
 				
 				<div class="clear">	</div>
+				
+				<!--Our Coustomer Info Start-->
+				<!--slideanim-->
+				<div class="box ">
+					<div class="col-md-12 text-center">
+						<h2>Our Happy Client</h2>
+					</div>
+					<div class="col-md-12 counter" id="counter">
+							<div class="main_counter_area">
+								<div class="overlay p-y-3">
+									<div class="main_counter_content text-center white-text wow fadeInUp">
+										<div class="col-md-3">
+											<div class="single_counter p-y-2 m-t-1">
+												<i class="fa fa-heart m-b-1"></i>
+												<h2 class="statistic-counter">100</h2>
+												<p>Total Client</p>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="single_counter p-y-2 m-t-1">
+												<i class="fa fa-check m-b-1"></i>
+												<h2 class="statistic-counter">400</h2>
+												<p>Total Send</p>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="single_counter p-y-2 m-t-1">
+												<i class="fa fa-refresh m-b-1"></i>
+												<h2 class="statistic-counter">312</h2>
+												<p>Total Receive</p>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="single_counter p-y-2 m-t-1">
+												<i class="fa fa-beer m-b-1"></i>
+												<h2 class="statistic-counter">480</h2>
+												<p>Total Reserve</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+				<!--Our Coustomer Info End-->
 				
 				
 			</div>
 			<div class="col-md-3">
 				<div class="box">
 					<div class='col-md-12 text-center'>
-						<h2>Tracking No</h2>
-					</div><div class='col-md-12 text-center'>
-						<h2>Tracking No</h2>
+						<h2>Track exchange</h2>
+					</div>
+					<div class='col-md-12 text-center'>
+						<input type="text" class="form-control form_style_1 input-lg" id="bit_amount_receive" name="bit_amount_receive" placeholder="Type hear exchange id">
+					</div>
+					<div class="col-md-12 text-center"></div>
+					<div class='col-md-12 text-center'>
+						<button type="button" class="btn btn-primary btn-lg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-refresh"></i> Track&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+					</div>
+				</div>
+				
+				<div class="clear">	</div>
+				
+				<div class="box">
+					<div class="row">
+						<div class='col-md-12 text-center'>
+						<h2>Our Reserve</h2>
+						</div>
+						<?php
+							$i=0;
+							while($i<10)
+							{
+						?>
+						<div class="col-md-12" style="margin-bottom:10px; margin-left:10%">
+							<img src="assets/images/icons/Bitcoin.png" width="42px" height="42px" class="img-circle img-bordered pull-left">
+							<span class="pull-left" style="margin-left:5px;">
+								<span style="font-size:15px;font-weight:bold;">Skrill. USD</span><br/>
+								<span class="text text-muted">119.06 USD </span>
+							</span>
+						</div>
+						
+						<br><br>
+						<?php
+							$i++;
+						}
+					?>
 					</div>
 				</div>
 			</div>

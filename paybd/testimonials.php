@@ -7,7 +7,7 @@
 <?php include 'inc/header.php';?>
 	
 	<section id="testimonial">
-   		<div class="container">
+   		<div class="container slide">
             <div class="row text-center">
                 <h2 class="ion-minus"><span>---Testimonials---</span></h2>
             </div>

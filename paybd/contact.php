@@ -17,7 +17,7 @@
         </div>
     </div>
 	<div class="container">
-        <div class="row">
+        <div class="row slide">
             <div class="col-md-8">
                 <div class="well well-sm">
                     <form>
@@ -83,9 +83,12 @@
         </div>
     </div>
 	
-	
-	
-	
 	<div class="clear">	</div>
-
+	
+	<div class="container">
+		<div class="col-md-12">
+      	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d93886.08557793785!2d91.907716!3d22.435305!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd91b2b41b1e1%3A0x996c92690c9c8329!2sNoapara%2C+Chittagong!5e1!3m2!1sen!2sbd!4v1535485363035" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+	</div>
+	
 <?php include 'inc/footer.php';?>
