@@ -7,21 +7,56 @@
 		
 		
 		
-		
-		<div class="container-fluid footerTop">
+		<div class="clear"></div>
+		<section id="footer">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					<p>Hello</p>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<p class="headerText">Quick links</p>
+					<ul class="list-unstyled quick-links">
+						<li><a href="index.php"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="testimonials.php"><i class="fa fa-angle-double-right"></i>Testimonials</a></li>
+						<li><a href="about.php"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="contact.php"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+						<li><a href="faq.php"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+					</ul>
 				</div>
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					<p>Hello</p>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<p class="headerText">Quick links</p>
+					<ul class="list-unstyled quick-links">
+						<li><a href="index.php"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="testimonials.php"><i class="fa fa-angle-double-right"></i>Testimonials</a></li>
+						<li><a href="about.php"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="contact.php"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+						<li><a href="faq.php"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+					</ul>
 				</div>
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					<p>Hello</p>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<p class="headerText">Quick links</p>
+					<ul class="list-unstyled quick-links">
+						<li><a href="index.php"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="testimonials.php"><i class="fa fa-angle-double-right"></i>Testimonials</a></li>
+						<li><a href="about.php"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="contact.php"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+						<li><a href="faq.php"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+					</ul>
 				</div>
 			</div>
-
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="index.php"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="index.php"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="index.php"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="index.php"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="index.php" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
+		</section>
+
+		
 		<footer class="container-fluid text-center">
 	  		<a href="#myPage" title="To Top">
 				<span class="glyphicon glyphicon-chevron-up"></span>

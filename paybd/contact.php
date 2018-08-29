@@ -87,7 +87,7 @@
 	
 	<div class="container">
 		<div class="col-md-12">
-      	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d93886.08557793785!2d91.907716!3d22.435305!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd91b2b41b1e1%3A0x996c92690c9c8329!2sNoapara%2C+Chittagong!5e1!3m2!1sen!2sbd!4v1535485363035" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+     	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.2243285144286!2d91.88440741430296!3d22.458202842821155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad28e694fbf14b%3A0x70c4892c83550bb8!2sGuzra+Post+Office!5e0!3m2!1sen!2sbd!4v1535567015341" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
 	</div>
 	

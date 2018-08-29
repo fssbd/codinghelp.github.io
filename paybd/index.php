@@ -7,6 +7,23 @@
 <?php include 'inc/header.php';?>
 	
 	<div class="container-fluid">
+	
+		<div class="box">
+			<div class="row">
+				<div class="col-md-1 noticeBoard">
+					<p>Notice: </p>
+				</div>
+				<div class="col-md-8 noticeBoard">
+					<marquee behavior="left" direction="">
+						<p>Hello world</p>
+					</marquee>
+				</div>
+				<div class="col-md-3">
+					<p>Your Ad Hear Your Ad Hear Your Ad Hear Your Ad Hear Your Ad Hear</p>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
 		<div class="row">
 			<div class="col-md-9">
 				<div class="box">
@@ -139,7 +156,7 @@
 				<div class="clear">	</div>			
 				
 				<!--Our Reserve Start-->
-				<div class="box ">
+				<div class="box slideanim">
 					<div class="col-md-12 text-center">
 						<h2>Letest Exchange</h2>
 					</div>
@@ -149,13 +166,13 @@
                     <table class="table table-striped table-hover table-bordered">
 					 <thead>
 						<tr>
-							<th>Send</th>
-							<th>Receive</th>
-							<th>Amount</th>
+							<th class="text-center">Send <i class="fa fa-arrow-down"></i></th>
+							<th class="text-center">Receive <i class="fa fa-arrow-up"></i></th>
+							<th class="text-center">Amount</th>
 
-							<th>Username</th>
-							<th>Date</th>
-							<th>Status</th>
+							<th class="text-center">Username</th>
+							<th class="text-center">Date</th>
+							<th class="text-center">Status</th>
 						  </tr>
 					</thead>
 						  <tbody>
@@ -192,11 +209,11 @@
 				</div>
 				<!--Our Reserve End-->
 				
-				<div class="clear">	</div>
+				<div class="clear"></div>
 				
 				<!--Our Coustomer Info Start-->
 				<!--slideanim-->
-				<div class="box ">
+				<div class="box slideanim">
 					<div class="col-md-12 text-center">
 						<h2>Our Happy Client</h2>
 					</div>
@@ -204,30 +221,30 @@
 							<div class="main_counter_area">
 								<div class="overlay p-y-3">
 									<div class="main_counter_content text-center white-text wow fadeInUp">
-										<div class="col-md-3">
+										<div class="col-md-3 ">
 											<div class="single_counter p-y-2 m-t-1">
-												<i class="fa fa-heart m-b-1"></i>
+												<i class="fa fa-users m-b-1"></i>
 												<h2 class="statistic-counter">100</h2>
 												<p>Total Client</p>
 											</div>
 										</div>
 										<div class="col-md-3">
 											<div class="single_counter p-y-2 m-t-1">
-												<i class="fa fa-check m-b-1"></i>
+												<i class="fa fa-arrow-down m-b-1"></i>
 												<h2 class="statistic-counter">400</h2>
 												<p>Total Send</p>
 											</div>
 										</div>
 										<div class="col-md-3">
 											<div class="single_counter p-y-2 m-t-1">
-												<i class="fa fa-refresh m-b-1"></i>
+												<i class="fa fa-arrow-up m-b-1"></i>
 												<h2 class="statistic-counter">312</h2>
 												<p>Total Receive</p>
 											</div>
 										</div>
 										<div class="col-md-3">
 											<div class="single_counter p-y-2 m-t-1">
-												<i class="fa fa-beer m-b-1"></i>
+												<i class="fa fa-database m-b-1"></i>
 												<h2 class="statistic-counter">480</h2>
 												<p>Total Reserve</p>
 											</div>
@@ -279,6 +296,16 @@
 							$i++;
 						}
 					?>
+					</div>
+				</div>
+				
+				<div class="clear"></div>
+				
+				<div class="box">
+					<div class="row">
+						<div class="col-md-12">
+							<p>kene color? din hal ken jar?</p>
+						</div>
 					</div>
 				</div>
 			</div>
