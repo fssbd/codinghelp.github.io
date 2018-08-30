@@ -3,7 +3,7 @@
 <?php include 'inc/sidebar.php';?>
 <div class="grid_10">
     <div class="box round first grid">
-        <h2>Update Event</h2>
+        <h2>Update Company Info</h2>
         <div class="block">   
 <?php
 
@@ -44,18 +44,34 @@
             <table class="form">					
                 <tr>
                     <td>
-                        <label>Event Name</label>
+                        <label>Company Name</label>
                     </td>
                     <td>
-                        <input type="text" name="eventName" placeholder="Event Name.." class="medium" />
+                        <input type="text" name="eventName" placeholder="Company Name.." class="medium" />
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label>Event Description</label>
+                        <label>Email</label>
                     </td>
                     <td>
-                        <input type="text" name="eventDescription" placeholder="Event Description.." class="medium" />
+                        <input type="text" name="eventDescription" placeholder="Email.." class="medium" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Mobile</label>
+                    </td>
+                    <td>
+                        <input type="text" name="eventDescription" placeholder="Mobile No..." class="medium" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Address</label>
+                    </td>
+                    <td>
+                        <input type="text" name="eventDescription" placeholder="Office Address..." class="medium" />
                     </td>
                 </tr>
 				<tr>
