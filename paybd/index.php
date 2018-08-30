@@ -83,8 +83,66 @@
 					</form>	
 				</div>
 				
+				<div class="clear">	</div>			
+				
+				<!--Letest Exchange Start-->
+				<div class="box">
+					<div class="col-md-12 text-center">
+						<h2>Letest Exchange</h2>
+					</div>
+					<div class="col-md-12">
+						<!--<div class="row">-->
+                    <!--<div class="col-md-8">-->
+                    <table class="table table-striped table-hover table-bordered">
+					 <thead>
+						<tr>
+							<th class="text-center">Send <i class="fa fa-arrow-down"></i></th>
+							<th class="text-center">Receive <i class="fa fa-arrow-up"></i></th>
+							<th class="text-center">Amount</th>
+
+							<th class="text-center">Username</th>
+							<th class="text-center">Date</th>
+							<th class="text-center">Status</th>
+						  </tr>
+					</thead>
+						  <tbody>
+							   <tr>
+									<td><img src="assets/images/icons/Bitcoin.png" width="30px" height="30">  </td>
+									<td><img src="assets/images/icons/Dogecoin.png" width="30px" height="30"> </td>
+									<td>60 USD</td>
+									<td>mirazul704</td>
+									<td><span>21/06/2018</span></td>
+									<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
+								</tr>
+								<tr>
+									<td><img src="assets/images/icons/Dogecoin.png" width="30px" height="30">  </td>
+									<td><img src="assets/images/icons/Dogecoin.png" width="30px" height="30"> </td>
+									<td>3000 BDT</td>
+
+									<td>esysbd</td>
+									<td><span>21/06/2018</span></td>
+									<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Confirmation</span></td>
+								</tr>
+								<tr>
+									<td><img src="assets/images/icons/Dogecoin.png" width="30px" height="30">  </td>
+									<td><img src="assets/images/icons/Dogecoin.png" width="30px" height="30"> </td>
+									<td>1200 BDT</td>
+									<td>ShibliMoon</td>
+									<td><span>21/06/2018</span></td>
+									<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
+								</tr>
+							 </tbody>
+						 </table>
+						<!--</div>-->
+					   <!--</div>-->
+					</div>
+				</div>
+				<!--Letest Exchange End-->
+				
+				
 				<div class="clear">	</div>
 				
+				<!--Testimonials Start-->
 				<div class="box">
 					<div class="col-md-12 text-center">
 						<h2>Testimonial</h2>
@@ -153,62 +211,6 @@
 				</div>
 				<!--Testimonials End-->
 				
-				<div class="clear">	</div>			
-				
-				<!--Our Reserve Start-->
-				<div class="box slideanim">
-					<div class="col-md-12 text-center">
-						<h2>Letest Exchange</h2>
-					</div>
-					<div class="col-md-12">
-						<!--<div class="row">-->
-                    <!--<div class="col-md-8">-->
-                    <table class="table table-striped table-hover table-bordered">
-					 <thead>
-						<tr>
-							<th class="text-center">Send <i class="fa fa-arrow-down"></i></th>
-							<th class="text-center">Receive <i class="fa fa-arrow-up"></i></th>
-							<th class="text-center">Amount</th>
-
-							<th class="text-center">Username</th>
-							<th class="text-center">Date</th>
-							<th class="text-center">Status</th>
-						  </tr>
-					</thead>
-						  <tbody>
-							   <tr>
-									<td><img src="assets/images/icons/Bitcoin.png" width="30px" height="30">  </td>
-									<td><img src="assets/images/icons/Dogecoin.png" width="30px" height="30"> </td>
-									<td>60 USD</td>
-									<td>mirazul704</td>
-									<td><span>21/06/2018</span></td>
-									<td><span class="label label-success"><i class="fa fa-check"></i> Processed</span></td>
-								</tr>
-								<tr>
-									<td><img src="assets/images/icons/Dogecoin.png" width="30px" height="30">  </td>
-									<td><img src="assets/images/icons/Dogecoin.png" width="30px" height="30"> </td>
-									<td>3000 BDT</td>
-
-									<td>esysbd</td>
-									<td><span>21/06/2018</span></td>
-									<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Confirmation</span></td>
-								</tr>
-								<tr>
-									<td><img src="assets/images/icons/Dogecoin.png" width="30px" height="30">  </td>
-									<td><img src="assets/images/icons/Dogecoin.png" width="30px" height="30"> </td>
-									<td>1200 BDT</td>
-									<td>ShibliMoon</td>
-									<td><span>21/06/2018</span></td>
-									<td><span class="label label-warning"><i class="fa fa-clock-o"></i> Awaiting Payment</span></td>
-								</tr>
-							 </tbody>
-						 </table>
-						<!--</div>-->
-					   <!--</div>-->
-					</div>
-				</div>
-				<!--Our Reserve End-->
-				
 				<div class="clear"></div>
 				
 				<!--Our Coustomer Info Start-->
@@ -267,7 +269,7 @@
 					</div>
 					<div class="col-md-12 text-center"></div>
 					<div class='col-md-12 text-center'>
-						<button type="button" class="btn btn-primary btn-lg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-refresh"></i> Track&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+						<button type="button" style="margin-top:5px;" class="btn btn-primary btn-lg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-refresh"></i> Track&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
 					</div>
 				</div>
 				
@@ -283,7 +285,7 @@
 							while($i<10)
 							{
 						?>
-						<div class="col-md-12" style="margin-bottom:10px; margin-left:10%">
+						<div class="col-md-12" style="margin-bottom:10px; margin-left:10%; border-bottom: 1px solid #f5f5f5;">
 							<img src="assets/images/icons/Bitcoin.png" width="42px" height="42px" class="img-circle img-bordered pull-left">
 							<span class="pull-left" style="margin-left:5px;">
 								<span style="font-size:15px;font-weight:bold;">Skrill. USD</span><br/>

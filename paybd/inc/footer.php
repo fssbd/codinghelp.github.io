@@ -11,7 +11,8 @@
 		<section id="footer">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12 col-sm-4 col-md-4 footerRightBorder">
+			<div class="container">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 footerRightBorder">
 					<p class="headerText">Quick links</p>
 					<ul class="list-unstyled quick-links">
 						<li><a href="index.php"><i class="fa fa-angle-double-right"></i>Home</a></li>
@@ -21,15 +22,15 @@
 						<li><a href="faq.php"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
 					</ul>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4 footerRightBorder">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 footerRightBorder">
 					<p class="headerText">Contact Info</p>
 					<ul class="list-unstyled quick-links">
 						<li><a href="index.php"><i class="fa fa-phone"></i> +8801829663628</a></li>
 						<li><a href="testimonials.php"><i class="fa fa-envelope"></i>abc@gmail.com</a></li>
-						<li><a href="about.php"><i class="fa fa-home"></i>Address sdf sdf sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf </a></li>
+						<li><a href="about.php"><i class="fa fa-home"></i>Address sdf sdf sdfsdf sfsdf Address <br>sdf sdf sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf Address sdf sdf <br>sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf Address sdf sdf</a></li>
 					</ul>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 					<p class="headerText">Payment Allowance</p>
 					<img style="height:110px; width:290px;padding-top:8px;padding-right3px;" src="assets/images/cardpay.jpg" alt="Payment">
 					<br>
@@ -41,6 +42,7 @@
 						<li class="list-inline-item"><a href="index.php"><i class="fa fa-google-plus"></i></a></li>
 						<li class="list-inline-item"><a href="index.php" target="_blank"><i class="fa fa-envelope"></i></a></li>
 					</ul>
+				</div>
 				</div>
 			</div>
 			<!--<div class="row">
@@ -117,10 +119,10 @@
 			})
 			
 			/**/
-			jQuery('.statistic-counter').counterUp({
+			/*jQuery('.statistic-counter').counterUp({
                 delay: 10,
                 time: 2000
-            });
+            });*/
 			
 		</script>
 
