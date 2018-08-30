@@ -719,19 +719,25 @@ a:hover, a:active {
 /*footer up panel start*/
 
 /* Footer */
+.headerText{
+     color: #ff9900;   
+}
+.footerRightBorder{
+    border-right: 1px solid #fff;
+}
 section {
-    padding: 60px 0;
+    padding: 30px 0;
 	z-index: 450;
 }
 
 section .section-title {
     text-align: center;
-    color: darkgray;
+    color: coral;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 #footer {
-    background: darkgray !important;
+    background: #141415 !important;
 }
 #footer h5{
 	padding-left: 10px;
@@ -758,6 +764,7 @@ section .section-title {
 #footer ul.social li:hover a i {
 	font-size:30px;
 	margin-top:-10px;
+    color: darkorange
 }
 #footer ul.social li a,
 #footer ul.quick-links li a{
@@ -782,7 +789,6 @@ section .section-title {
 }
 #footer ul.quick-links li:hover a i {
     font-weight: 700;
-}
 }
 
 

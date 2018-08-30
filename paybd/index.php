@@ -19,7 +19,7 @@
 					</marquee>
 				</div>
 				<div class="col-md-3">
-					<p>Your Ad Hear Your Ad Hear Your Ad Hear Your Ad Hear Your Ad Hear</p>
+					<img style="height:70px; width:280px;padding-top:8px;padding-right3px;" src="assets/images/ads/placeYourAdHear.gif" alt="Advertise With Us 70x280">
 				</div>
 			</div>
 		</div>
@@ -304,7 +304,7 @@
 				<div class="box">
 					<div class="row">
 						<div class="col-md-12">
-							<p>kene color? din hal ken jar?</p>
+							<img style="height:300px; width:250px;padding-top:8px;" src="assets/images/ads/advertiseWithUs.gif" alt="Advertise With Us">
 						</div>
 					</div>
 				</div>

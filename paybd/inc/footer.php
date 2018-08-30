@@ -11,7 +11,7 @@
 		<section id="footer">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12 col-sm-4 col-md-4">
+				<div class="col-xs-12 col-sm-4 col-md-4 footerRightBorder">
 					<p class="headerText">Quick links</p>
 					<ul class="list-unstyled quick-links">
 						<li><a href="index.php"><i class="fa fa-angle-double-right"></i>Home</a></li>
@@ -21,30 +21,20 @@
 						<li><a href="faq.php"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
 					</ul>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<p class="headerText">Quick links</p>
+				<div class="col-xs-12 col-sm-4 col-md-4 footerRightBorder">
+					<p class="headerText">Contact Info</p>
 					<ul class="list-unstyled quick-links">
-						<li><a href="index.php"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="testimonials.php"><i class="fa fa-angle-double-right"></i>Testimonials</a></li>
-						<li><a href="about.php"><i class="fa fa-angle-double-right"></i>About</a></li>
-						<li><a href="contact.php"><i class="fa fa-angle-double-right"></i>Contact</a></li>
-						<li><a href="faq.php"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="index.php"><i class="fa fa-phone"></i> +8801829663628</a></li>
+						<li><a href="testimonials.php"><i class="fa fa-envelope"></i>abc@gmail.com</a></li>
+						<li><a href="about.php"><i class="fa fa-home"></i>Address sdf sdf sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf </a></li>
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">
-					<p class="headerText">Quick links</p>
-					<ul class="list-unstyled quick-links">
-						<li><a href="index.php"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="testimonials.php"><i class="fa fa-angle-double-right"></i>Testimonials</a></li>
-						<li><a href="about.php"><i class="fa fa-angle-double-right"></i>About</a></li>
-						<li><a href="contact.php"><i class="fa fa-angle-double-right"></i>Contact</a></li>
-						<li><a href="faq.php"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-					<ul class="list-unstyled list-inline social text-center">
+					<p class="headerText">Payment Allowance</p>
+					<img style="height:110px; width:290px;padding-top:8px;padding-right3px;" src="assets/images/cardpay.jpg" alt="Payment">
+					<br>
+					<br>
+					<ul class="list-unstyled list-inline social">
 						<li class="list-inline-item"><a href="index.php"><i class="fa fa-facebook"></i></a></li>
 						<li class="list-inline-item"><a href="index.php"><i class="fa fa-twitter"></i></a></li>
 						<li class="list-inline-item"><a href="index.php"><i class="fa fa-instagram"></i></a></li>
@@ -53,6 +43,11 @@
 					</ul>
 				</div>
 			</div>
+			<!--<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					
+				</div>
+			</div>-->
 		</div>
 		</section>
 
