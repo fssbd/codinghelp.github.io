@@ -39,7 +39,18 @@
 									<h3><i class="fa fa-arrow-down"></i> Send</h3>
 									<div class="form-group">
 										<select class="form-control form_style_1 input-lg" id="bit_gateway_send" name="bit_gateway_send" onchange="bit_refresh('1');">
-											<option value="7" >Skrill. USD</option><option value="8" >Neteller. USD</option><option value="9" >Perfect Money. USD</option><option value="10" >Payeer. USD</option><option value="11" >Bkash Agent BDT</option><option value="14" selected>bKash Personal BDT</option><option value="15" >Rocket Personal BDT</option><option value="23" >Coinbase BTC USD</option><option value="24" >Coinbase ETH USD</option><option value="25" >Coinbase LTC USD</option><option value="26" >Coinbase BCH USD</option>												</select>
+											<option value="7" >Skrill. USD</option>
+											<option value="8" >Neteller. USD</option>
+											<option value="9" >Perfect Money. USD</option>
+											<option value="10" >Payeer. USD</option>
+											<option value="11" >Bkash Agent BDT</option>
+											<option value="14" selected>bKash Personal BDT</option>
+											<option value="15" >Rocket Personal BDT</option>
+											<option value="23" >Coinbase BTC USD</option>
+											<option value="24" >Coinbase ETH USD</option>
+											<option value="25" >Coinbase LTC USD</option>
+											<option value="26" >Coinbase BCH USD</option>						
+										</select>
 									</div>
 									<div class="form-group">
 										<input type="text" class="form-control form_style_1 input-lg" id="bit_amount_send" name="bit_amount_send" value="0" onkeyup="bit_calculator();" onkeydown="bit_calculator();">
@@ -54,7 +65,18 @@
 									<h3><i class="fa fa-arrow-up"></i> Receive</h3>
 									<div class="form-group">
 										<select class="form-control form_style_1 input-lg" id="bit_gateway_receive" name="bit_gateway_receive"  onchange="bit_refresh('2');">
-											<option value="7" >Skrill. USD</option><option value="8" >Neteller. USD</option><option value="9" selected>Perfect Money. USD</option><option value="10" >Payeer. USD</option><option value="14" >bKash Personal BDT</option><option value="15" >Rocket Personal BDT</option><option value="20" >Payza. USD</option><option value="21" >WebMoney. USD</option><option value="22" >PayPal. USD</option><option value="23" >Coinbase BTC USD</option><option value="27" >Payoneer. USD</option>												</select>
+											<option value="7" >Skrill. USD</option>
+											<option value="8" >Neteller. USD</option>
+											<option value="9" selected>Perfect Money. USD</option>
+											<option value="10" >Payeer. USD</option>
+											<option value="14" >bKash Personal BDT</option>
+											<option value="15" >Rocket Personal BDT</option>
+											<option value="20" >Payza. USD</option>
+											<option value="21" >WebMoney. USD</option>
+											<option value="22" >PayPal. USD</option>
+											<option value="23" >Coinbase BTC USD</option>
+											<option value="27" >Payoneer. USD</option>	
+										</select>
 									</div>
 									<div class="form-group">
 										<input type="text" class="form-control form_style_1 input-lg" id="bit_amount_receive" name="bit_amount_receive" disabled value="0">

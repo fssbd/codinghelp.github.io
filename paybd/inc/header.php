@@ -10,7 +10,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 	
 	<head>
 	  <title>Best Pay BD</title>
@@ -25,9 +24,22 @@
 	  <!--<script type="text/javascript" src="assets/bootstrap3.3.7/js/Waypoints-4.0.0.js"></script>
 	  <script type="text/javascript" src="assets/bootstrap3.3.7/js/jquery.counterup-1.0.js"></script>-->
 	  
+	<script>
+		/*page Loader Start*/
+
+		window.addEventListener("load", function(){
+			var load_screen = document.getElementById("load_screen");
+			document.body.removeChild(load_screen);
+		});
+
+	/*page Loader End*/
+	</script>
 	  
 	</head>
-
+	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+	<!--page Loader Start-->
+		<div id="load_screen"><div id="loading"><img src="assets/images/loader-spinner.svg" alt=""></div></div>
+	<!--page Loader End-->
 	
 	<!-- navbar -->
 	<nav class="navbar navbar-inverse" id="navFix">
@@ -70,7 +82,8 @@
             </form>
           </div>-->
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="btn btn-lg" role="button" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a href="profile.php">Profile</a></li>
+            <li><a href="loginAndRegister.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
           </ul>
         </div>
       </div>

@@ -2,9 +2,9 @@
     <div class="box sidemenu">
         <div class="block" id="section-menu">
             <ul class="section menu">
-               <li><a class="menuitem">Events Option</a>
+               <li><a class="menuitem">Setup</a>
                     <ul class="submenu">
-                        <li><a href="eventadd.php">Add Events</a></li>
+                        <li><a href="eventadd.php">Company Info</a></li>
                         <li><a href="eventlist.php">Events List</a></li>
                     </ul>
                 </li>
