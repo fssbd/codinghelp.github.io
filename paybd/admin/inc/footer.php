@@ -5,7 +5,7 @@
     </div>
     <div id="site_info">
         <p>
-         &copy; Copyright <a href="#">PRIHUTA BOOK STORE</a>
+         &copy; Copyright <a href="http://www.codinghelpbd.com">Coding Help BD</a>
         </p>
     </div>
 </body>
