@@ -64,21 +64,31 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <form>
+            <?php
+				$query="select companyName,email,mobile,officeAddress from tbCompanyInfo";
+				$selectData=$db->select($query);
+				if($selectData)
+				{
+					while($result=$selectData->fetch_assoc())
+					{
+
+				?>
                 <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
                 <address>
-                    <strong>Best Pay BD</strong><br>
-                    795 Folsom Ave, Suite 600<br>
-                    San Francisco, CA 94107<br>
-                    <abbr title="Mobile">
-                        P:</abbr>
-                    (+88) 01829-123456
+                    <strong><?php echo $result['companyName']; ?></strong><br>
+                    <?php echo $result['officeAddress']; ?><br><br>
+                    <strong>Mobile</strong><br>
+                        <!--P:</abbr>-->
+                    <?php echo $result['mobile']; ?>
                 </address>
                 <address>
                     <strong>Email</strong><br>
-                    <a href="mailto:#">abc@gmail.com</a>
+                    <a href="mailto:#"><?php echo $result['email']; ?></a>
                 </address>
-                </form>
+			   <?php 
+				}
+				}
+			?>
             </div>
         </div>
     </div>

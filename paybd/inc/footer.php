@@ -24,10 +24,23 @@
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 footerRightBorder">
 					<p class="headerText">Contact Info</p>
-					<ul class="list-unstyled quick-links">
-						<li><a href="index.php"><i class="fa fa-phone"></i> +8801829663628</a></li>
-						<li><a href="testimonials.php"><i class="fa fa-envelope"></i>abc@gmail.com</a></li>
-						<li><a href="about.php"><i class="fa fa-home"></i>Address sdf sdf sdfsdf sfsdf Address <br>sdf sdf sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf Address sdf sdf <br>sdfsdf sfsdf Address sdf sdf sdfsdf sfsdf Address sdf sdf</a></li>
+					<ul class="list-unstyled quick-links" style="color: #eeeeee;">
+					<?php
+						$query="select companyName,email,mobile,officeAddress from tbCompanyInfo";
+						$selectData=$db->select($query);
+						if($selectData)
+						{
+							while($result=$selectData->fetch_assoc())
+							{
+
+						?>
+							<li><i class="fa fa-phone"></i> <?php echo $result['mobile']; ?></li>
+							<li><i class="fa fa-envelope"></i> <?php echo $result['email']; ?></li>
+							<li><i class="fa fa-home"></i> <?php echo $result['officeAddress']; ?></li>
+					   <?php 
+						}
+						}
+					?>
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -35,13 +48,26 @@
 					<img style="height:110px; width:290px;padding-top:8px;padding-right3px;" src="assets/images/cardpay.jpg" alt="Payment">
 					<br>
 					<br>
-					<ul class="list-unstyled list-inline social">
-						<li class="list-inline-item"><a href="index.php" target="_blank"><i class="fa fa-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="index.php" target="_blank"><i class="fa fa-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="index.php" target="_blank"><i class="fa fa-instagram"></i></a></li>
-						<li class="list-inline-item"><a href="index.php" target="_blank"><i class="fa fa-youtube"></i></a></li>
-						<li class="list-inline-item"><a href="index.php" target="_blank"><i class="fa fa-envelope"></i></a></li>
-					</ul>
+					<?php
+						$query="select youtube,facebook,twiter,instagram from tbSocialInfo";
+						$selectData=$db->select($query);
+						if($selectData)
+						{
+							while($result=$selectData->fetch_assoc())
+							{
+
+						?>
+						<ul class="list-unstyled list-inline social">
+							<li class="list-inline-item"><a href="<?php echo $result['facebook']; ?>" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li class="list-inline-item"><a href="<?php echo $result['twiter']; ?>" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							<li class="list-inline-item"><a href="<?php echo $result['instagram']; ?>" target="_blank"><i class="fa fa-instagram"></i></a></li>
+							<li class="list-inline-item"><a href="<?php echo $result['youtube']; ?>" target="_blank"><i class="fa fa-youtube"></i></a></li>
+							<!--<li class="list-inline-item"><a href="index.php" target="_blank"><i class="fa fa-envelope"></i></a></li>-->
+						</ul>
+					<?php 
+						}
+						}
+					?>
 				</div>
 				</div>
 			</div>

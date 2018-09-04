@@ -13,11 +13,24 @@
 				<div class="col-md-1 noticeBoard">
 					<p>Notice: </p>
 				</div>
+				<?php
+					$query="select autoId,noticeName from tbnoticeinfo";
+					$selectData=$db->select($query);
+					if($selectData)
+					{
+						while($result=$selectData->fetch_assoc())
+						{
+
+					?>
 				<div class="col-md-8 noticeBoard">
 					<marquee behavior="left" direction="">
-						<p>Hello world</p>
+						<p><?php echo $result['noticeName']; ?></p>
 					</marquee>
 				</div>
+				<?php 
+					}
+					}
+				?>
 				<div class="col-md-3">
 					<img style="height:70px; width:280px;padding-top:8px;padding-right3px;" src="assets/images/ads/placeYourAdHear.gif" alt="Advertise With Us 70x280">
 				</div>
@@ -36,7 +49,7 @@
 									</div>
 								</div>
 								<div class="col-md-9">
-									<h3><i class="fa fa-arrow-down"></i> Send</h3>
+									<h3><i class="fa fa-arrow-up"></i> Send</h3>
 									<div class="form-group">
 										<select class="form-control form_style_1 input-lg" id="bit_gateway_send" name="bit_gateway_send" onchange="bit_refresh('1');">
 											<option value="7" >Skrill. USD</option>
@@ -62,7 +75,7 @@
 						<div class="col-md-6">
 							<div class="row">
 								<div class="col-md-9">
-									<h3><i class="fa fa-arrow-up"></i> Receive</h3>
+									<h3><i class="fa fa-arrow-down"></i> Receive</h3>
 									<div class="form-group">
 										<select class="form-control form_style_1 input-lg" id="bit_gateway_receive" name="bit_gateway_receive"  onchange="bit_refresh('2');">
 											<option value="7" >Skrill. USD</option>
@@ -118,8 +131,8 @@
                     <table class="table table-striped table-hover table-bordered">
 					 <thead>
 						<tr>
-							<th class="text-center">Send <i class="fa fa-arrow-down"></i></th>
-							<th class="text-center">Receive <i class="fa fa-arrow-up"></i></th>
+							<th class="text-center">Send <i class="fa fa-arrow-up"></i></th>
+							<th class="text-center">Receive <i class="fa fa-arrow-down"></i></th>
 							<th class="text-center">Amount</th>
 
 							<th class="text-center">Username</th>
