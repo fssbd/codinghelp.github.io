@@ -12,7 +12,7 @@
                 <h2 class="ion-minus"><span>---Testimonials---</span></h2>
             </div>
             <?php
-            $query="select autoId,userId,comment,image from tbSestimonials";
+            $query="select autoId,userId,comment,image from tbTestimonial";
             $selectData=$db->select($query);
             if($selectData)
             {

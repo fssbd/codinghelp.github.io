@@ -195,7 +195,7 @@
 						<div class="carousel-inner">
                           
                         <?php
-                            $query="select autoId,userId,comment,image from tbSestimonials limit 3";
+                            $query="select autoId,userId,comment,image from tbTestimonial limit 3";
                             $selectData=$db->select($query);
                             if($selectData)
                             {
@@ -228,51 +228,7 @@
                             $i++;
                                 }
                             }
-                        ?>
-
-						  <!-- Quote 1 -->
-						  <!--<div class="item active">
-							<blockquote>
-							  <div class="row">
-								<div class="col-sm-2 text-center">
-								  <img class="img-circle" src="assets/images/female.jpg" style="width: 100px;height:100px;">
-								</div>
-								<div class="col-sm-10">
-								  <p>100% ট্রাস্টেড সাইট। তবে রেট একটু কমালে ভাল হয়। আর ফোন নাম্বার এর ইউজ না থাকলে ভাল হয়, শুধু ইমেলই যথেষ্ট বলে আমার ধারণা।</p>
-								  <small>Someone famous</small>
-								</div>
-							  </div>
-							</blockquote>
-						  </div>-->
-						  <!-- Quote 2 -->
-						  <!--<div class="item">
-							<blockquote>
-							  <div class="row">
-								<div class="col-sm-2 text-center">
-								  <img class="img-circle" src="assets/images/female.jpg" style="width: 100px;height:100px;">
-								</div>
-								<div class="col-sm-10">
-								  <p>Could I... BE any more happy with this company?</p>
-								  <small>Someone famous</small>
-								</div>
-							  </div>
-							</blockquote>
-						  </div>-->
-						  <!-- Quote 3 -->
-						  <!--<div class="item">
-							<blockquote>
-							  <div class="row">
-								<div class="col-sm-2 text-center">
-								  <img class="img-circle" src="assets/images/female.jpg" style="width: 100px;height:100px;">
-								</div>
-								<div class="col-sm-10">
-								  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
-								  <small>Someone famous</small>
-								</div>
-							  </div>
-							</blockquote>
-						  </div>-->
-						  
+                        ?>						  
 						</div>
 
 						<!-- Carousel Buttons Next/Prev -->
