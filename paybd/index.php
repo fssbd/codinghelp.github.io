@@ -13,24 +13,24 @@
 				<div class="col-md-1 noticeBoard">
 					<p>Notice: </p>
 				</div>
-				<?php
-					$query="select autoId,noticeName from tbnoticeinfo";
-					$selectData=$db->select($query);
-					if($selectData)
-					{
-						while($result=$selectData->fetch_assoc())
-						{
+            <?php
+                $query="select autoId,noticeName from tbnoticeinfo";
+                $selectData=$db->select($query);
+                if($selectData)
+                {
+                    while($result=$selectData->fetch_assoc())
+                    {
 
-					?>
+                ?>
 				<div class="col-md-8 noticeBoard">
 					<marquee behavior="left" direction="">
 						<p><?php echo $result['noticeName']; ?></p>
 					</marquee>
 				</div>
-				<?php 
-					}
-					}
-				?>
+            <?php 
+                   }
+                }
+            ?>
 				<div class="col-md-3">
 					<img style="height:70px; width:280px;padding-top:8px;padding-right3px;" src="assets/images/ads/placeYourAdHear.gif" alt="Advertise With Us 70x280">
 				</div>
@@ -193,9 +193,45 @@
 
 						<!-- Carousel Slides / Quotes -->
 						<div class="carousel-inner">
+                          
+                        <?php
+                            $query="select autoId,userId,comment,image from tbSestimonials limit 3";
+                            $selectData=$db->select($query);
+                            if($selectData)
+                            {
+                                $i=0;
+                                $active="";
+                                while($result=$selectData->fetch_assoc())
+                                {
+                                    if($i==0)
+                                    {
+                                        $active="active";
+                                    }
+                                    else{
+                                        $active="";
+                                    }
+                        ?>
+                        <div class="item <?php echo $active; ?>">
+							<blockquote>
+							  <div class="row">
+								<div class="col-sm-2 text-center">
+								  <img class="img-circle" src="assets/images/user/<?php echo $result['image'];?>" style="width: 100px;height:100px;">
+								</div>
+								<div class="col-sm-10">
+								  <p><?php echo $result['comment'];?></p>
+								  <small><?php echo $result['userId'];?></small>
+								</div>
+							  </div>
+							</blockquote>
+						 </div>
+                        <?php 
+                            $i++;
+                                }
+                            }
+                        ?>
 
 						  <!-- Quote 1 -->
-						  <div class="item active">
+						  <!--<div class="item active">
 							<blockquote>
 							  <div class="row">
 								<div class="col-sm-2 text-center">
@@ -207,9 +243,9 @@
 								</div>
 							  </div>
 							</blockquote>
-						  </div>
+						  </div>-->
 						  <!-- Quote 2 -->
-						  <div class="item">
+						  <!--<div class="item">
 							<blockquote>
 							  <div class="row">
 								<div class="col-sm-2 text-center">
@@ -221,9 +257,9 @@
 								</div>
 							  </div>
 							</blockquote>
-						  </div>
+						  </div>-->
 						  <!-- Quote 3 -->
-						  <div class="item">
+						  <!--<div class="item">
 							<blockquote>
 							  <div class="row">
 								<div class="col-sm-2 text-center">
@@ -235,7 +271,8 @@
 								</div>
 							  </div>
 							</blockquote>
-						  </div>
+						  </div>-->
+						  
 						</div>
 
 						<!-- Carousel Buttons Next/Prev -->
